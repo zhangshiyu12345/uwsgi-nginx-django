@@ -1,0 +1,2280 @@
+*** Starting uWSGI 2.0.20 (64bit) on [Thu Mar 10 17:04:06 2022] ***
+compiled with version: 9.3.0 on 22 December 2021 12:39:30
+os: Linux-5.13.0-30-generic #33~20.04.1-Ubuntu SMP Mon Feb 7 14:25:10 UTC 2022
+nodename: zh-virtual-machine
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /home/zh/projects1/myobject/myobject
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/projects1/myobject
+chdir(): No such file or directory [core/uwsgi.c line 2625]
+*** Starting uWSGI 2.0.20 (64bit) on [Thu Mar 10 17:08:00 2022] ***
+compiled with version: 9.3.0 on 22 December 2021 12:39:30
+os: Linux-5.13.0-30-generic #33~20.04.1-Ubuntu SMP Mon Feb 7 14:25:10 UTC 2022
+nodename: zh-virtual-machine
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /home/zh/projects1/myobject/myobject
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/projects1/myobject
+chdir(): No such file or directory [core/uwsgi.c line 2625]
+*** Starting uWSGI 2.0.20 (64bit) on [Thu Mar 10 17:11:50 2022] ***
+compiled with version: 9.3.0 on 22 December 2021 12:39:30
+os: Linux-5.13.0-30-generic #33~20.04.1-Ubuntu SMP Mon Feb 7 14:25:10 UTC 2022
+nodename: zh-virtual-machine
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /home/zh/projects1/myobject/myobject
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/projects1/myobject
+chdir(): No such file or directory [core/uwsgi.c line 2625]
+*** Starting uWSGI 2.0.20 (64bit) on [Thu Mar 10 17:12:49 2022] ***
+compiled with version: 9.3.0 on 22 December 2021 12:39:30
+os: Linux-5.13.0-30-generic #33~20.04.1-Ubuntu SMP Mon Feb 7 14:25:10 UTC 2022
+nodename: zh-virtual-machine
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /home/zh/projects1/myobject/myobject
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/projects1
+chdir(): No such file or directory [core/uwsgi.c line 2625]
+*** Starting uWSGI 2.0.20 (64bit) on [Thu Mar 10 17:14:27 2022] ***
+compiled with version: 9.3.0 on 22 December 2021 12:39:30
+os: Linux-5.13.0-30-generic #33~20.04.1-Ubuntu SMP Mon Feb 7 14:25:10 UTC 2022
+nodename: zh-virtual-machine
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /home/zh/projects1/myobject/myobject
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/zh/projects1
+your processes number limit is 15295
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8000 fd 3
+probably another instance of uWSGI is running on the same address (127.0.0.1:8000).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.20 (64bit) on [Thu Mar 10 17:27:50 2022] ***
+compiled with version: 9.3.0 on 22 December 2021 12:39:30
+os: Linux-5.13.0-30-generic #33~20.04.1-Ubuntu SMP Mon Feb 7 14:25:10 UTC 2022
+nodename: zh-virtual-machine
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /home/zh/projects1/myobject/myobject
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/zh/projects1/myobject
+your processes number limit is 15295
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:42245 (port auto-assigned) fd 3
+Python version: 3.8.10 (default, Nov 26 2021, 20:14:08)  [GCC 9.3.0]
+Python main interpreter initialized at 0x55b4e6457b20
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 166752 bytes (162 KB) for 2 cores
+*** Operational MODE: threaded ***
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 7374)
+spawned uWSGI worker 1 (pid: 7375, cores: 2)
+spawned uWSGI http 1 (pid: 7376)
+--- no python application found, check your startup logs for errors ---
+[pid: 7375|app: -1|req: -1/1] 127.0.0.1 () {46 vars in 833 bytes} [Thu Mar 10 17:28:22 2022] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 7375|app: -1|req: -1/2] 127.0.0.1 () {44 vars in 776 bytes} [Thu Mar 10 17:28:22 2022] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 1)
+respawned uWSGI http 1 (pid: 7622)
+--- no python application found, check your startup logs for errors ---
+[pid: 7375|app: -1|req: -1/3] 127.0.0.1 () {46 vars in 833 bytes} [Thu Mar 10 17:31:34 2022] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 7375|app: -1|req: -1/4] 127.0.0.1 () {46 vars in 841 bytes} [Thu Mar 10 17:31:39 2022] GET /web/ => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 1)
+--- no python application found, check your startup logs for errors ---
+[pid: 7375|app: -1|req: -1/5] 127.0.0.1 () {46 vars in 841 bytes} [Thu Mar 10 17:31:42 2022] GET /web/ => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 7375|app: -1|req: -1/6] 127.0.0.1 () {46 vars in 833 bytes} [Thu Mar 10 17:33:25 2022] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 1)
+SIGINT/SIGTERM received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 7622)
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.20 (64bit) on [Thu Mar 10 17:35:42 2022] ***
+compiled with version: 9.3.0 on 22 December 2021 12:39:30
+os: Linux-5.13.0-30-generic #33~20.04.1-Ubuntu SMP Mon Feb 7 14:25:10 UTC 2022
+nodename: zh-virtual-machine
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /home/zh/projects1/myobject/myobject
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/zh/projects1/myobject
+your processes number limit is 15295
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:43743 (port auto-assigned) fd 3
+Python version: 3.8.10 (default, Nov 26 2021, 20:14:08)  [GCC 9.3.0]
+Python main interpreter initialized at 0x559174d81b30
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 166752 bytes (162 KB) for 2 cores
+*** Operational MODE: threaded ***
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 7702)
+spawned uWSGI worker 1 (pid: 7703, cores: 2)
+spawned uWSGI http 1 (pid: 7704)
+--- no python application found, check your startup logs for errors ---
+[pid: 7703|app: -1|req: -1/1] 127.0.0.1 () {46 vars in 833 bytes} [Thu Mar 10 17:36:01 2022] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+SIGINT/SIGTERM received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 7704)
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.20 (64bit) on [Thu Mar 10 17:37:08 2022] ***
+compiled with version: 9.3.0 on 22 December 2021 12:39:30
+os: Linux-5.13.0-30-generic #33~20.04.1-Ubuntu SMP Mon Feb 7 14:25:10 UTC 2022
+nodename: zh-virtual-machine
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /home/zh/projects1/myobject/myobject
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/zh/projects1/myobject
+your processes number limit is 15295
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:45125 (port auto-assigned) fd 3
+Python version: 3.8.10 (default, Nov 26 2021, 20:14:08)  [GCC 9.3.0]
+Python main interpreter initialized at 0x5620bdd5fb40
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 166752 bytes (162 KB) for 2 cores
+*** Operational MODE: threaded ***
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 7733)
+spawned uWSGI worker 1 (pid: 7734, cores: 2)
+spawned uWSGI http 1 (pid: 7735)
+--- no python application found, check your startup logs for errors ---
+[pid: 7734|app: -1|req: -1/1] 127.0.0.1 () {46 vars in 833 bytes} [Thu Mar 10 17:37:18 2022] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+SIGINT/SIGTERM received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 7735)
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.20 (64bit) on [Thu Mar 10 17:38:53 2022] ***
+compiled with version: 9.3.0 on 22 December 2021 12:39:30
+os: Linux-5.13.0-30-generic #33~20.04.1-Ubuntu SMP Mon Feb 7 14:25:10 UTC 2022
+nodename: zh-virtual-machine
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /home/zh/projects1/myobject/myobject
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/zh/projects1/myobject
+your processes number limit is 15295
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:40399 (port auto-assigned) fd 3
+Python version: 3.8.10 (default, Nov 26 2021, 20:14:08)  [GCC 9.3.0]
+Python main interpreter initialized at 0x555fc94fbb30
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 166752 bytes (162 KB) for 2 cores
+*** Operational MODE: threaded ***
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 7761)
+spawned uWSGI worker 1 (pid: 7762, cores: 2)
+spawned uWSGI http 1 (pid: 7763)
+--- no python application found, check your startup logs for errors ---
+[pid: 7762|app: -1|req: -1/1] 127.0.0.1 () {46 vars in 833 bytes} [Thu Mar 10 17:39:10 2022] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+SIGINT/SIGTERM received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 7763)
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.20 (64bit) on [Thu Mar 10 17:40:09 2022] ***
+compiled with version: 9.3.0 on 22 December 2021 12:39:30
+os: Linux-5.13.0-30-generic #33~20.04.1-Ubuntu SMP Mon Feb 7 14:25:10 UTC 2022
+nodename: zh-virtual-machine
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /home/zh/projects1/myobject/myobject
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/zh/projects1/myobject
+your processes number limit is 15295
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:36159 (port auto-assigned) fd 3
+Python version: 3.8.10 (default, Nov 26 2021, 20:14:08)  [GCC 9.3.0]
+Python main interpreter initialized at 0x55f5abb65b20
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 166752 bytes (162 KB) for 2 cores
+*** Operational MODE: threaded ***
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 7786)
+spawned uWSGI worker 1 (pid: 7787, cores: 2)
+spawned uWSGI http 1 (pid: 7788)
+--- no python application found, check your startup logs for errors ---
+[pid: 7787|app: -1|req: -1/1] 127.0.0.1 () {46 vars in 833 bytes} [Thu Mar 10 17:40:20 2022] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 7787|app: -1|req: -1/2] 127.0.0.1 () {46 vars in 833 bytes} [Thu Mar 10 17:40:34 2022] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 1)
+SIGINT/SIGTERM received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 7788)
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.20 (64bit) on [Thu Mar 10 17:41:33 2022] ***
+compiled with version: 9.3.0 on 22 December 2021 12:39:30
+os: Linux-5.13.0-30-generic #33~20.04.1-Ubuntu SMP Mon Feb 7 14:25:10 UTC 2022
+nodename: zh-virtual-machine
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /home/zh/projects1/myobject/myobject
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/zh/projects1/myobject
+your processes number limit is 15295
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:46485 (port auto-assigned) fd 3
+Python version: 3.8.10 (default, Nov 26 2021, 20:14:08)  [GCC 9.3.0]
+Python main interpreter initialized at 0x55d910f63b20
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 166752 bytes (162 KB) for 2 cores
+*** Operational MODE: threaded ***
+ShopMiddleware
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55d910f63b20 pid: 8074 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 8074)
+spawned uWSGI worker 1 (pid: 8076, cores: 2)
+spawned uWSGI http 1 (pid: 8077)
+url: /
+[pid: 8076|app: 0|req: 1/1] 127.0.0.1 () {46 vars in 833 bytes} [Thu Mar 10 17:41:41 2022] GET / => generated 0 bytes in 32 msecs (HTTP/1.1 302) 4 headers in 127 bytes (1 switches on core 0)
+url: /web/
+[pid: 8076|app: 0|req: 2/2] 127.0.0.1 () {46 vars in 841 bytes} [Thu Mar 10 17:41:41 2022] GET /web/ => generated 18449 bytes in 53 msecs (HTTP/1.1 200) 5 headers in 270 bytes (1 switches on core 1)
+url: /static/web/css/bootstrap.min.css
+Not Found: /static/web/css/bootstrap.min.css
+[pid: 8076|app: 0|req: 3/3] 127.0.0.1 () {46 vars in 870 bytes} [Thu Mar 10 17:41:41 2022] GET /static/web/css/bootstrap.min.css => generated 3256 bytes in 7 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+SIGINT/SIGTERM received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 8077)
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.20 (64bit) on [Thu Mar 10 17:59:15 2022] ***
+compiled with version: 9.3.0 on 22 December 2021 12:39:30
+os: Linux-5.13.0-30-generic #33~20.04.1-Ubuntu SMP Mon Feb 7 14:25:10 UTC 2022
+nodename: zh-virtual-machine
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /home/zh/projects1/myobject/myobject
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/zh/projects1/myobject
+your processes number limit is 15295
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+Python version: 3.8.10 (default, Nov 26 2021, 20:14:08)  [GCC 9.3.0]
+Python main interpreter initialized at 0x563b18807a30
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 166752 bytes (162 KB) for 2 cores
+*** Operational MODE: threaded ***
+ShopMiddleware
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x563b18807a30 pid: 8221 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 8221)
+spawned uWSGI worker 1 (pid: 8223, cores: 2)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.20 (64bit) on [Thu Mar 10 18:02:52 2022] ***
+compiled with version: 9.3.0 on 22 December 2021 12:39:30
+os: Linux-5.13.0-30-generic #33~20.04.1-Ubuntu SMP Mon Feb 7 14:25:10 UTC 2022
+nodename: zh-virtual-machine
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /home/zh/projects1/myobject/myobject
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/zh/projects1/myobject
+your processes number limit is 15295
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+Python version: 3.8.10 (default, Nov 26 2021, 20:14:08)  [GCC 9.3.0]
+Python main interpreter initialized at 0x5562160aca30
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 166752 bytes (162 KB) for 2 cores
+*** Operational MODE: threaded ***
+ShopMiddleware
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x5562160aca30 pid: 8260 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 8260)
+spawned uWSGI worker 1 (pid: 8262, cores: 2)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+url: /
+[pid: 8262|app: 0|req: 1/1] 127.0.0.1 () {50 vars in 860 bytes} [Thu Mar 10 18:03:05 2022] GET / => generated 0 bytes in 29 msecs (HTTP/1.1 302) 4 headers in 127 bytes (1 switches on core 0)
+url: /web/
+[pid: 8262|app: 0|req: 2/2] 127.0.0.1 () {50 vars in 868 bytes} [Thu Mar 10 18:03:05 2022] GET /web/ => generated 18449 bytes in 61 msecs (HTTP/1.1 200) 5 headers in 270 bytes (1 switches on core 1)
+url: /web/
+[pid: 8262|app: 0|req: 3/3] 127.0.0.1 () {52 vars in 899 bytes} [Thu Mar 10 18:54:38 2022] GET /web/ => generated 18449 bytes in 38 msecs (HTTP/1.1 200) 5 headers in 270 bytes (1 switches on core 0)
+url: /web/
+[pid: 8262|app: 0|req: 4/4] 127.0.0.1 () {52 vars in 899 bytes} [Thu Mar 10 18:58:18 2022] GET /web/ => generated 18449 bytes in 25 msecs (HTTP/1.1 200) 5 headers in 270 bytes (1 switches on core 1)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+Thu Mar 10 19:00:34 2022 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Mar 10 19:00:34 2022 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.20 (64bit) on [Thu Mar 10 19:09:41 2022] ***
+compiled with version: 9.3.0 on 22 December 2021 12:39:30
+os: Linux-5.13.0-30-generic #33~20.04.1-Ubuntu SMP Mon Feb 7 14:25:10 UTC 2022
+nodename: zh-virtual-machine
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /home/zh/projects1/myobject/myobject
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/zh/projects1/myobject
+your processes number limit is 15295
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+Python version: 3.8.10 (default, Nov 26 2021, 20:14:08)  [GCC 9.3.0]
+Python main interpreter initialized at 0x558759c26a30
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 166752 bytes (162 KB) for 2 cores
+*** Operational MODE: threaded ***
+ShopMiddleware
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x558759c26a30 pid: 8991 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 8991)
+spawned uWSGI worker 1 (pid: 8993, cores: 2)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+url: /
+[pid: 8993|app: 0|req: 1/1] 127.0.0.1 () {50 vars in 860 bytes} [Thu Mar 10 19:12:03 2022] GET / => generated 0 bytes in 43 msecs (HTTP/1.1 302) 4 headers in 127 bytes (1 switches on core 0)
+url: /web/
+[pid: 8993|app: 0|req: 2/2] 127.0.0.1 () {50 vars in 868 bytes} [Thu Mar 10 19:12:03 2022] GET /web/ => generated 18449 bytes in 88 msecs (HTTP/1.1 200) 5 headers in 270 bytes (1 switches on core 1)
+url: /web/
+[pid: 8993|app: 0|req: 3/3] 127.0.0.1 () {52 vars in 899 bytes} [Thu Mar 10 19:17:07 2022] GET /web/ => generated 18449 bytes in 29 msecs (HTTP/1.1 200) 5 headers in 270 bytes (1 switches on core 0)
+url: /web/
+[pid: 8993|app: 0|req: 4/4] 127.0.0.1 () {52 vars in 899 bytes} [Thu Mar 10 19:17:09 2022] GET /web/ => generated 18449 bytes in 28 msecs (HTTP/1.1 200) 5 headers in 270 bytes (1 switches on core 1)
+url: /web/
+[pid: 8993|app: 0|req: 5/5] 127.0.0.1 () {52 vars in 899 bytes} [Thu Mar 10 21:24:23 2022] GET /web/ => generated 18449 bytes in 69 msecs (HTTP/1.1 200) 5 headers in 270 bytes (1 switches on core 0)
+[pid: 8993|app: 0|req: 6/6] 127.0.0.1 () {50 vars in 870 bytes} [Thu Mar 10 21:39:16 2022] GET /admin => generated 0 bytes in 3 msecs (HTTP/1.1 301) 3 headers in 112 bytes (1 switches on core 0)
+url: /admin/
+[pid: 8993|app: 0|req: 7/7] 127.0.0.1 () {50 vars in 872 bytes} [Thu Mar 10 21:39:16 2022] GET /admin/ => generated 3011 bytes in 119 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 1)
+url: /admin/
+[pid: 8993|app: 0|req: 8/8] 127.0.0.1 () {52 vars in 903 bytes} [Thu Mar 10 21:39:20 2022] GET /admin/ => generated 3011 bytes in 29 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+url: /admin/auth/group/
+[pid: 8993|app: 0|req: 9/9] 127.0.0.1 () {52 vars in 940 bytes} [Thu Mar 10 21:39:26 2022] GET /admin/auth/group/ => generated 3490 bytes in 54 msecs (HTTP/1.1 200) 7 headers in 395 bytes (1 switches on core 1)
+url: /admin/jsi18n/
+[pid: 8993|app: 0|req: 10/10] 127.0.0.1 () {48 vars in 798 bytes} [Thu Mar 10 21:39:26 2022] GET /admin/jsi18n/ => generated 7722 bytes in 17 msecs (HTTP/1.1 200) 4 headers in 132 bytes (1 switches on core 0)
+url: /admin/
+[pid: 8993|app: 0|req: 11/11] 127.0.0.1 () {50 vars in 872 bytes} [Thu Mar 10 21:39:28 2022] GET /admin/ => generated 3011 bytes in 31 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 1)
+url: /admin/
+[pid: 8993|app: 0|req: 12/12] 127.0.0.1 () {50 vars in 872 bytes} [Thu Mar 10 21:40:02 2022] GET /admin/ => generated 3011 bytes in 29 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+url: /admin/logout/
+[pid: 8993|app: 0|req: 13/13] 127.0.0.1 () {52 vars in 932 bytes} [Thu Mar 10 21:41:30 2022] GET /admin/logout/ => generated 1196 bytes in 47 msecs (HTTP/1.1 200) 6 headers in 298 bytes (1 switches on core 1)
+url: /admin/
+[pid: 8993|app: 0|req: 14/14] 127.0.0.1 () {52 vars in 881 bytes} [Thu Mar 10 21:41:35 2022] GET /admin/ => generated 0 bytes in 1 msecs (HTTP/1.1 302) 7 headers in 265 bytes (1 switches on core 0)
+url: /admin/login/
+[pid: 8993|app: 0|req: 15/15] 127.0.0.1 () {52 vars in 918 bytes} [Thu Mar 10 21:41:35 2022] GET /admin/login/?next=/admin/ => generated 1821 bytes in 37 msecs (HTTP/1.1 200) 7 headers in 395 bytes (1 switches on core 1)
+url: /admin/login/
+[pid: 8993|app: 0|req: 16/16] 127.0.0.1 () {58 vars in 1078 bytes} [Thu Mar 10 21:41:36 2022] POST /admin/login/?next=/admin/ => generated 1958 bytes in 90 msecs (HTTP/1.1 200) 7 headers in 395 bytes (1 switches on core 0)
+url: /admin/login/
+[pid: 8993|app: 0|req: 17/17] 127.0.0.1 () {58 vars in 1078 bytes} [Thu Mar 10 21:41:46 2022] POST /admin/login/?next=/admin/ => generated 1958 bytes in 74 msecs (HTTP/1.1 200) 7 headers in 395 bytes (1 switches on core 1)
+url: /admin/login/
+[pid: 8993|app: 0|req: 18/18] 127.0.0.1 () {58 vars in 1078 bytes} [Thu Mar 10 21:42:09 2022] POST /admin/login/?next=/admin/ => generated 1958 bytes in 93 msecs (HTTP/1.1 200) 7 headers in 395 bytes (1 switches on core 0)
+url: /admin/login/
+[pid: 8993|app: 0|req: 19/19] 127.0.0.1 () {58 vars in 1078 bytes} [Thu Mar 10 21:42:24 2022] POST /admin/login/?next=/admin/ => generated 0 bytes in 111 msecs (HTTP/1.1 302) 9 headers in 559 bytes (1 switches on core 1)
+url: /admin/
+[pid: 8993|app: 0|req: 20/20] 127.0.0.1 () {52 vars in 937 bytes} [Thu Mar 10 21:42:24 2022] GET /admin/ => generated 3011 bytes in 28 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+url: /admin/auth/user/
+[pid: 8993|app: 0|req: 21/21] 127.0.0.1 () {52 vars in 938 bytes} [Thu Mar 10 21:45:42 2022] GET /admin/auth/user/ => generated 6660 bytes in 83 msecs (HTTP/1.1 200) 7 headers in 395 bytes (1 switches on core 1)
+url: /admin/jsi18n/
+[pid: 8993|app: 0|req: 22/22] 127.0.0.1 () {48 vars in 797 bytes} [Thu Mar 10 21:45:42 2022] GET /admin/jsi18n/ => generated 7722 bytes in 22 msecs (HTTP/1.1 200) 4 headers in 132 bytes (1 switches on core 0)
+url: /admin/
+[pid: 8993|app: 0|req: 23/23] 127.0.0.1 () {52 vars in 937 bytes} [Thu Mar 10 21:45:49 2022] GET /admin/ => generated 3011 bytes in 26 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 1)
+url: /admin/
+[pid: 8993|app: 0|req: 24/24] 127.0.0.1 () {52 vars in 918 bytes} [Thu Mar 10 21:46:22 2022] GET /admin/ => generated 3011 bytes in 24 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+url: /
+[pid: 8993|app: 0|req: 25/25] 127.0.0.1 () {52 vars in 906 bytes} [Thu Mar 10 21:46:27 2022] GET / => generated 0 bytes in 0 msecs (HTTP/1.1 302) 4 headers in 127 bytes (1 switches on core 1)
+url: /web/
+[pid: 8993|app: 0|req: 26/26] 127.0.0.1 () {52 vars in 914 bytes} [Thu Mar 10 21:46:27 2022] GET /web/ => generated 0 bytes in 12 msecs (HTTP/1.1 302) 5 headers in 142 bytes (1 switches on core 0)
+url: /login
+[pid: 8993|app: 0|req: 27/27] 127.0.0.1 () {52 vars in 916 bytes} [Thu Mar 10 21:46:27 2022] GET /login => generated 2597 bytes in 13 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 1)
+url: /verify
+[pid: 8993|app: 0|req: 28/28] 127.0.0.1 () {48 vars in 793 bytes} [Thu Mar 10 21:46:27 2022] GET /verify => generated 1889 bytes in 88 msecs (HTTP/1.1 200) 5 headers in 254 bytes (1 switches on core 0)
+url: /admin/
+[pid: 8993|app: 0|req: 29/29] 127.0.0.1 () {52 vars in 918 bytes} [Thu Mar 10 21:46:32 2022] GET /admin/ => generated 3011 bytes in 27 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 1)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.20 (64bit) on [Thu Mar 10 21:53:11 2022] ***
+compiled with version: 9.3.0 on 22 December 2021 12:39:30
+os: Linux-5.13.0-30-generic #33~20.04.1-Ubuntu SMP Mon Feb 7 14:25:10 UTC 2022
+nodename: zh-virtual-machine
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /home/zh/projects1/myobject/myobject
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/zh/projects1/myobject
+your processes number limit is 15295
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+Python version: 3.8.10 (default, Nov 26 2021, 20:14:08)  [GCC 9.3.0]
+Python main interpreter initialized at 0x55b6c24b1a30
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 166752 bytes (162 KB) for 2 cores
+*** Operational MODE: threaded ***
+Traceback (most recent call last):
+  File "myobject/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python3.8/dist-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/usr/local/lib/python3.8/dist-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python3.8/dist-packages/django/conf/__init__.py", line 79, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python3.8/dist-packages/django/conf/__init__.py", line 66, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python3.8/dist-packages/django/conf/__init__.py", line 157, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/zh/projects1/myobject/./myobject/settings.py", line 124, in <module>
+    USE_TZ = Falsed
+NameError: name 'Falsed' is not defined
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 10479)
+spawned uWSGI worker 1 (pid: 10481, cores: 2)
+--- no python application found, check your startup logs for errors ---
+[pid: 10481|app: -1|req: -1/1] 127.0.0.1 () {50 vars in 872 bytes} [Thu Mar 10 21:53:44 2022] GET /admin/ => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 10481|app: -1|req: -1/2] 127.0.0.1 () {52 vars in 903 bytes} [Thu Mar 10 21:54:39 2022] GET /admin/ => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 10481|app: -1|req: -1/3] 127.0.0.1 () {52 vars in 903 bytes} [Thu Mar 10 21:54:41 2022] GET /admin/ => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 1)
+--- no python application found, check your startup logs for errors ---
+[pid: 10481|app: -1|req: -1/4] 127.0.0.1 () {52 vars in 903 bytes} [Thu Mar 10 21:55:55 2022] GET /admin/ => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 10481|app: -1|req: -1/5] 127.0.0.1 () {52 vars in 903 bytes} [Thu Mar 10 21:55:56 2022] GET /admin/ => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 10481|app: -1|req: -1/6] 127.0.0.1 () {50 vars in 860 bytes} [Thu Mar 10 21:56:06 2022] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 1)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.20 (64bit) on [Thu Mar 10 21:56:43 2022] ***
+compiled with version: 9.3.0 on 22 December 2021 12:39:30
+os: Linux-5.13.0-30-generic #33~20.04.1-Ubuntu SMP Mon Feb 7 14:25:10 UTC 2022
+nodename: zh-virtual-machine
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /home/zh/projects1/myobject/myobject
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/zh/projects1/myobject
+your processes number limit is 15295
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+Python version: 3.8.10 (default, Nov 26 2021, 20:14:08)  [GCC 9.3.0]
+Python main interpreter initialized at 0x558dda1cea30
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 166752 bytes (162 KB) for 2 cores
+*** Operational MODE: threaded ***
+ShopMiddleware
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x558dda1cea30 pid: 10588 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 10588)
+spawned uWSGI worker 1 (pid: 10590, cores: 2)
+url: /
+[pid: 10590|app: 0|req: 1/1] 127.0.0.1 () {52 vars in 891 bytes} [Thu Mar 10 21:56:59 2022] GET / => generated 0 bytes in 56 msecs (HTTP/1.1 302) 4 headers in 127 bytes (1 switches on core 0)
+url: /web/
+[pid: 10590|app: 0|req: 2/2] 127.0.0.1 () {52 vars in 899 bytes} [Thu Mar 10 21:56:59 2022] GET /web/ => generated 0 bytes in 22 msecs (HTTP/1.1 302) 5 headers in 142 bytes (1 switches on core 1)
+url: /login
+[pid: 10590|app: 0|req: 3/3] 127.0.0.1 () {52 vars in 901 bytes} [Thu Mar 10 21:56:59 2022] GET /login => generated 2597 bytes in 56 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
+url: /verify
+[pid: 10590|app: 0|req: 4/4] 127.0.0.1 () {50 vars in 824 bytes} [Thu Mar 10 21:56:59 2022] GET /verify => generated 1938 bytes in 49 msecs (HTTP/1.1 200) 5 headers in 254 bytes (1 switches on core 1)
+url: /admin/
+[pid: 10590|app: 0|req: 5/5] 127.0.0.1 () {50 vars in 872 bytes} [Thu Mar 10 21:57:10 2022] GET /admin/ => generated 6354 bytes in 58 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+url: /admin/myadmin/category/
+[pid: 10590|app: 0|req: 6/6] 127.0.0.1 () {52 vars in 952 bytes} [Thu Mar 10 21:57:14 2022] GET /admin/myadmin/category/ => generated 6989 bytes in 94 msecs (HTTP/1.1 200) 7 headers in 395 bytes (1 switches on core 1)
+url: /admin/jsi18n/
+[pid: 10590|app: 0|req: 7/7] 127.0.0.1 () {48 vars in 804 bytes} [Thu Mar 10 21:57:15 2022] GET /admin/jsi18n/ => generated 7722 bytes in 20 msecs (HTTP/1.1 200) 4 headers in 132 bytes (1 switches on core 0)
+url: /admin/myadmin/category/12/change/
+[pid: 10590|app: 0|req: 8/8] 127.0.0.1 () {52 vars in 989 bytes} [Thu Mar 10 21:57:19 2022] GET /admin/myadmin/category/12/change/ => generated 7125 bytes in 85 msecs (HTTP/1.1 200) 7 headers in 395 bytes (1 switches on core 1)
+url: /admin/jsi18n/
+[pid: 10590|app: 0|req: 9/9] 127.0.0.1 () {48 vars in 814 bytes} [Thu Mar 10 21:57:19 2022] GET /admin/jsi18n/ => generated 7722 bytes in 16 msecs (HTTP/1.1 200) 4 headers in 132 bytes (1 switches on core 0)
+url: /admin/myadmin/category/
+[pid: 10590|app: 0|req: 10/10] 127.0.0.1 () {52 vars in 952 bytes} [Thu Mar 10 21:57:23 2022] GET /admin/myadmin/category/ => generated 6989 bytes in 78 msecs (HTTP/1.1 200) 7 headers in 395 bytes (1 switches on core 1)
+url: /admin/
+[pid: 10590|app: 0|req: 11/11] 127.0.0.1 () {50 vars in 872 bytes} [Thu Mar 10 21:57:24 2022] GET /admin/ => generated 6354 bytes in 39 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+url: /admin/myadmin/shop/
+[pid: 10590|app: 0|req: 12/12] 127.0.0.1 () {52 vars in 944 bytes} [Thu Mar 10 21:57:27 2022] GET /admin/myadmin/shop/ => generated 5029 bytes in 80 msecs (HTTP/1.1 200) 7 headers in 395 bytes (1 switches on core 1)
+url: /admin/jsi18n/
+[pid: 10590|app: 0|req: 13/13] 127.0.0.1 () {48 vars in 800 bytes} [Thu Mar 10 21:57:28 2022] GET /admin/jsi18n/ => generated 7722 bytes in 21 msecs (HTTP/1.1 200) 4 headers in 132 bytes (1 switches on core 0)
+url: /admin/myadmin/shop/8/change/
+[pid: 10590|app: 0|req: 14/14] 127.0.0.1 () {52 vars in 975 bytes} [Thu Mar 10 21:57:30 2022] GET /admin/myadmin/shop/8/change/ => generated 8692 bytes in 72 msecs (HTTP/1.1 200) 7 headers in 395 bytes (1 switches on core 1)
+url: /admin/jsi18n/
+[pid: 10590|app: 0|req: 15/15] 127.0.0.1 () {48 vars in 809 bytes} [Thu Mar 10 21:57:31 2022] GET /admin/jsi18n/ => generated 7722 bytes in 13 msecs (HTTP/1.1 200) 4 headers in 132 bytes (1 switches on core 0)
+url: /admin/myadmin/shop/
+[pid: 10590|app: 0|req: 16/16] 127.0.0.1 () {52 vars in 944 bytes} [Thu Mar 10 21:57:34 2022] GET /admin/myadmin/shop/ => generated 5029 bytes in 78 msecs (HTTP/1.1 200) 7 headers in 395 bytes (1 switches on core 1)
+url: /admin/
+[pid: 10590|app: 0|req: 17/17] 127.0.0.1 () {50 vars in 872 bytes} [Thu Mar 10 21:57:35 2022] GET /admin/ => generated 6354 bytes in 27 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.21 (64bit) on [Tue Apr 25 16:06:00 2023] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-44) on 24 April 2023 17:40:47
+os: Linux-3.10.0-1160.71.1.el7.x86_64 #1 SMP Tue Jun 28 15:37:28 UTC 2022
+nodename: VM-8-12-centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /data/www/myobject/myobject
+writing pidfile to uwsgi.pid
+detected binary path: /envs/nb2/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /data/www/myobject
+your processes number limit is 7908
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.5 (default, Apr 25 2023, 01:25:07)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-44)]
+Python main interpreter initialized at 0x25c58a0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 166752 bytes (162 KB) for 2 cores
+*** Operational MODE: threaded ***
+ShopMiddleware
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x25c58a0 pid: 4850 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4850)
+spawned uWSGI worker 1 (pid: 4862, cores: 2)
+url: /
+[pid: 4862|app: 0|req: 1/1] 183.234.123.117 () {40 vars in 681 bytes} [Tue Apr 25 16:25:11 2023] GET / => generated 0 bytes in 58 msecs (HTTP/1.1 302) 7 headers in 225 bytes (1 switches on core 0)
+url: /web/
+[pid: 4862|app: 0|req: 2/2] 183.234.123.117 () {40 vars in 689 bytes} [Tue Apr 25 16:25:11 2023] GET /web/ => generated 0 bytes in 1 msecs (HTTP/1.1 302) 8 headers in 240 bytes (1 switches on core 1)
+url: /login
+Internal Server Error: /login
+Traceback (most recent call last):
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/defaulttags.py", line 1026, in find_library
+    return parser.libraries[name]
+KeyError: 'staticfiles'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/envs/nb2/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/envs/nb2/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/data/www/myobject/./web/views.py", line 25, in login
+    return render(request,'web/login.html',context)
+  File "/envs/nb2/lib/python3.9/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/defaulttags.py", line 1082, in load
+    lib = find_library(parser, name)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/defaulttags.py", line 1028, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'staticfiles' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+i18n
+l10n
+log
+static
+tz
+[pid: 4862|app: 0|req: 3/3] 183.234.123.117 () {40 vars in 691 bytes} [Tue Apr 25 16:25:11 2023] GET /login => generated 151514 bytes in 76 msecs (HTTP/1.1 500) 7 headers in 243 bytes (1 switches on core 0)
+url: /login
+Internal Server Error: /login
+Traceback (most recent call last):
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/defaulttags.py", line 1026, in find_library
+    return parser.libraries[name]
+KeyError: 'staticfiles'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/envs/nb2/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/envs/nb2/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/data/www/myobject/./web/views.py", line 25, in login
+    return render(request,'web/login.html',context)
+  File "/envs/nb2/lib/python3.9/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/defaulttags.py", line 1082, in load
+    lib = find_library(parser, name)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/defaulttags.py", line 1028, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'staticfiles' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+i18n
+l10n
+log
+static
+tz
+[pid: 4862|app: 0|req: 4/4] 183.234.123.117 () {40 vars in 691 bytes} [Tue Apr 25 16:25:31 2023] GET /login => generated 151514 bytes in 45 msecs (HTTP/1.1 500) 7 headers in 243 bytes (1 switches on core 1)
+url: /
+[pid: 4862|app: 0|req: 5/5] 183.234.123.117 () {40 vars in 681 bytes} [Tue Apr 25 16:25:35 2023] GET / => generated 0 bytes in 1 msecs (HTTP/1.1 302) 7 headers in 225 bytes (1 switches on core 0)
+url: /web/
+[pid: 4862|app: 0|req: 6/6] 183.234.123.117 () {40 vars in 689 bytes} [Tue Apr 25 16:25:35 2023] GET /web/ => generated 0 bytes in 0 msecs (HTTP/1.1 302) 8 headers in 240 bytes (1 switches on core 1)
+url: /login
+Internal Server Error: /login
+Traceback (most recent call last):
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/defaulttags.py", line 1026, in find_library
+    return parser.libraries[name]
+KeyError: 'staticfiles'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/envs/nb2/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/envs/nb2/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/data/www/myobject/./web/views.py", line 25, in login
+    return render(request,'web/login.html',context)
+  File "/envs/nb2/lib/python3.9/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/defaulttags.py", line 1082, in load
+    lib = find_library(parser, name)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/defaulttags.py", line 1028, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'staticfiles' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+i18n
+l10n
+log
+static
+tz
+[pid: 4862|app: 0|req: 7/7] 183.234.123.117 () {40 vars in 691 bytes} [Tue Apr 25 16:25:35 2023] GET /login => generated 151514 bytes in 44 msecs (HTTP/1.1 500) 7 headers in 243 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.21 (64bit) on [Tue Apr 25 16:29:00 2023] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-44) on 24 April 2023 17:40:47
+os: Linux-3.10.0-1160.71.1.el7.x86_64 #1 SMP Tue Jun 28 15:37:28 UTC 2022
+nodename: VM-8-12-centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /data/www/myobject/myobject
+writing pidfile to uwsgi.pid
+detected binary path: /envs/nb2/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /data/www/myobject
+your processes number limit is 7908
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8000).
+bind(): Address already in use [core/socket.c line 769]
+url: /login
+[pid: 4862|app: 0|req: 8/8] 183.234.123.117 () {40 vars in 691 bytes} [Tue Apr 25 16:29:14 2023] GET /login => generated 2598 bytes in 10 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 1)
+url: /verify
+[pid: 4862|app: 0|req: 9/9] 183.234.123.117 () {42 vars in 698 bytes} [Tue Apr 25 16:29:14 2023] GET /verify => generated 1972 bytes in 146 msecs (HTTP/1.1 200) 8 headers in 352 bytes (1 switches on core 0)
+url: /dologin
+[pid: 4862|app: 0|req: 10/10] 183.234.123.117 () {50 vars in 992 bytes} [Tue Apr 25 16:30:47 2023] POST /dologin => generated 0 bytes in 5 msecs (HTTP/1.1 302) 8 headers in 250 bytes (1 switches on core 1)
+url: /login
+[pid: 4862|app: 0|req: 11/11] 183.234.123.117 () {44 vars in 854 bytes} [Tue Apr 25 16:30:47 2023] GET /login?errinfo=4 => generated 2684 bytes in 4 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+url: /verify
+[pid: 4862|app: 0|req: 12/12] 183.234.123.117 () {42 vars in 752 bytes} [Tue Apr 25 16:30:47 2023] GET /verify => generated 1537 bytes in 38 msecs (HTTP/1.1 200) 8 headers in 352 bytes (1 switches on core 1)
+url: /dologin
+[pid: 4862|app: 0|req: 13/13] 183.234.123.117 () {50 vars in 1002 bytes} [Tue Apr 25 16:31:44 2023] POST /dologin => generated 0 bytes in 4 msecs (HTTP/1.1 302) 8 headers in 250 bytes (1 switches on core 0)
+url: /login
+[pid: 4862|app: 0|req: 14/14] 183.234.123.117 () {44 vars in 864 bytes} [Tue Apr 25 16:31:44 2023] GET /login?errinfo=5 => generated 2681 bytes in 3 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 1)
+url: /verify
+[pid: 4862|app: 0|req: 15/15] 183.234.123.117 () {42 vars in 752 bytes} [Tue Apr 25 16:31:45 2023] GET /verify => generated 1375 bytes in 35 msecs (HTTP/1.1 200) 8 headers in 352 bytes (1 switches on core 0)
+url: /dologin
+[pid: 4862|app: 0|req: 16/16] 183.234.123.117 () {50 vars in 1002 bytes} [Tue Apr 25 16:32:35 2023] POST /dologin => generated 0 bytes in 4 msecs (HTTP/1.1 302) 8 headers in 250 bytes (1 switches on core 1)
+url: /login
+[pid: 4862|app: 0|req: 17/17] 183.234.123.117 () {44 vars in 864 bytes} [Tue Apr 25 16:32:35 2023] GET /login?errinfo=5 => generated 2681 bytes in 3 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+url: /verify
+[pid: 4862|app: 0|req: 18/18] 183.234.123.117 () {42 vars in 752 bytes} [Tue Apr 25 16:32:35 2023] GET /verify => generated 1835 bytes in 38 msecs (HTTP/1.1 200) 8 headers in 352 bytes (1 switches on core 1)
+url: /user/add
+Not Found: /user/add
+[pid: 4862|app: 0|req: 19/19] 183.234.123.117 () {42 vars in 798 bytes} [Tue Apr 25 16:35:58 2023] GET /user/add => generated 3322 bytes in 7 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+url: /myadmin/user/add
+[pid: 4862|app: 0|req: 20/20] 183.234.123.117 () {42 vars in 814 bytes} [Tue Apr 25 16:36:21 2023] GET /myadmin/user/add => generated 0 bytes in 3 msecs (HTTP/1.1 302) 8 headers in 248 bytes (1 switches on core 1)
+url: /myadmin/login
+Internal Server Error: /myadmin/login
+Traceback (most recent call last):
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/defaulttags.py", line 1026, in find_library
+    return parser.libraries[name]
+KeyError: 'staticfiles'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/envs/nb2/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/envs/nb2/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/data/www/myobject/./myadmin/views.py", line 126, in login
+    return render(request,'myadmin/index/login.html')
+  File "/envs/nb2/lib/python3.9/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/defaulttags.py", line 1082, in load
+    lib = find_library(parser, name)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/defaulttags.py", line 1028, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'staticfiles' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+i18n
+l10n
+log
+static
+tz
+[pid: 4862|app: 0|req: 21/21] 183.234.123.117 () {42 vars in 808 bytes} [Tue Apr 25 16:36:21 2023] GET /myadmin/login => generated 151017 bytes in 41 msecs (HTTP/1.1 500) 7 headers in 243 bytes (1 switches on core 0)
+url: /web/
+[pid: 4862|app: 0|req: 22/22] 220.196.160.53 () {40 vars in 695 bytes} [Tue Apr 25 16:36:55 2023] GET /web/ => generated 0 bytes in 1 msecs (HTTP/1.1 302) 8 headers in 240 bytes (1 switches on core 1)
+url: /login
+[pid: 4862|app: 0|req: 23/23] 220.196.160.125 () {42 vars in 740 bytes} [Tue Apr 25 16:36:55 2023] GET /login => generated 2598 bytes in 4 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+url: /verify
+[pid: 4862|app: 0|req: 24/24] 1.13.138.128 () {38 vars in 560 bytes} [Tue Apr 25 16:36:55 2023] GET /verify => generated 1703 bytes in 39 msecs (HTTP/1.1 200) 8 headers in 352 bytes (1 switches on core 1)
+url: /
+[pid: 4862|app: 0|req: 25/25] 45.79.181.104 () {34 vars in 475 bytes} [Tue Apr 25 16:37:54 2023] GET / => generated 0 bytes in 1 msecs (HTTP/1.1 302) 7 headers in 225 bytes (1 switches on core 0)
+url: /myadmin/login
+Internal Server Error: /myadmin/login
+Traceback (most recent call last):
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/defaulttags.py", line 1026, in find_library
+    return parser.libraries[name]
+KeyError: 'staticfiles'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/envs/nb2/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/envs/nb2/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/data/www/myobject/./myadmin/views.py", line 126, in login
+    return render(request,'myadmin/index/login.html')
+  File "/envs/nb2/lib/python3.9/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/defaulttags.py", line 1082, in load
+    lib = find_library(parser, name)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/defaulttags.py", line 1028, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'staticfiles' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+i18n
+l10n
+log
+static
+tz
+[pid: 4862|app: 0|req: 26/26] 183.234.123.117 () {42 vars in 808 bytes} [Tue Apr 25 16:39:28 2023] GET /myadmin/login => generated 151017 bytes in 40 msecs (HTTP/1.1 500) 7 headers in 243 bytes (1 switches on core 1)
+url: /myadmin/login
+Internal Server Error: /myadmin/login
+Traceback (most recent call last):
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/defaulttags.py", line 1026, in find_library
+    return parser.libraries[name]
+KeyError: 'staticfiles'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/envs/nb2/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/envs/nb2/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/data/www/myobject/./myadmin/views.py", line 126, in login
+    return render(request,'myadmin/index/login.html')
+  File "/envs/nb2/lib/python3.9/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/defaulttags.py", line 1082, in load
+    lib = find_library(parser, name)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/defaulttags.py", line 1028, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'staticfiles' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+i18n
+l10n
+log
+static
+tz
+[pid: 4862|app: 0|req: 27/27] 183.234.123.117 () {42 vars in 808 bytes} [Tue Apr 25 16:39:33 2023] GET /myadmin/login => generated 151017 bytes in 39 msecs (HTTP/1.1 500) 7 headers in 243 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.21 (64bit) on [Tue Apr 25 16:40:05 2023] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-44) on 24 April 2023 17:40:47
+os: Linux-3.10.0-1160.71.1.el7.x86_64 #1 SMP Tue Jun 28 15:37:28 UTC 2022
+nodename: VM-8-12-centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /data/www/myobject/myobject
+writing pidfile to uwsgi.pid
+detected binary path: /envs/nb2/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /data/www/myobject
+your processes number limit is 7908
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8000).
+bind(): Address already in use [core/socket.c line 769]
+url: /myadmin/login
+Internal Server Error: /myadmin/login
+Traceback (most recent call last):
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/defaulttags.py", line 1026, in find_library
+    return parser.libraries[name]
+KeyError: 'staticfiles'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/envs/nb2/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/envs/nb2/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/data/www/myobject/./myadmin/views.py", line 126, in login
+    return render(request,'myadmin/index/login.html')
+  File "/envs/nb2/lib/python3.9/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/defaulttags.py", line 1082, in load
+    lib = find_library(parser, name)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/defaulttags.py", line 1028, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'staticfiles' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+i18n
+l10n
+log
+static
+tz
+[pid: 4862|app: 0|req: 28/28] 183.234.123.117 () {42 vars in 808 bytes} [Tue Apr 25 16:40:11 2023] GET /myadmin/login => generated 151017 bytes in 39 msecs (HTTP/1.1 500) 7 headers in 243 bytes (1 switches on core 1)
+url: /myadmin/login
+Internal Server Error: /myadmin/login
+Traceback (most recent call last):
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/defaulttags.py", line 1026, in find_library
+    return parser.libraries[name]
+KeyError: 'staticfiles'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/envs/nb2/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/envs/nb2/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/data/www/myobject/./myadmin/views.py", line 126, in login
+    return render(request,'myadmin/index/login.html')
+  File "/envs/nb2/lib/python3.9/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/defaulttags.py", line 1082, in load
+    lib = find_library(parser, name)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/defaulttags.py", line 1028, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'staticfiles' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+i18n
+l10n
+log
+static
+tz
+[pid: 4862|app: 0|req: 29/29] 183.234.123.117 () {42 vars in 808 bytes} [Tue Apr 25 16:40:13 2023] GET /myadmin/login => generated 151017 bytes in 39 msecs (HTTP/1.1 500) 7 headers in 243 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.21 (64bit) on [Tue Apr 25 16:42:21 2023] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-44) on 24 April 2023 17:40:47
+os: Linux-3.10.0-1160.71.1.el7.x86_64 #1 SMP Tue Jun 28 15:37:28 UTC 2022
+nodename: VM-8-12-centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /data/www/myobject/myobject
+writing pidfile to uwsgi.pid
+detected binary path: /envs/nb2/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /data/www/myobject
+your processes number limit is 7908
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8000).
+bind(): Address already in use [core/socket.c line 769]
+url: /myadmin/login
+[pid: 4862|app: 0|req: 30/30] 183.234.123.117 () {42 vars in 808 bytes} [Tue Apr 25 16:42:25 2023] GET /myadmin/login => generated 2930 bytes in 3 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 1)
+url: /myadmin/verify
+[pid: 4862|app: 0|req: 31/31] 183.234.123.117 () {42 vars in 766 bytes} [Tue Apr 25 16:42:25 2023] GET /myadmin/verify => generated 1938 bytes in 40 msecs (HTTP/1.1 200) 8 headers in 352 bytes (1 switches on core 0)
+url: /user/add
+Not Found: /user/add
+[pid: 4862|app: 0|req: 32/32] 220.196.160.83 () {40 vars in 703 bytes} [Tue Apr 25 16:42:54 2023] GET /user/add => generated 3322 bytes in 5 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 1)
+url: /verify
+[pid: 4862|app: 0|req: 33/33] 180.101.245.249 () {42 vars in 743 bytes} [Tue Apr 25 16:42:56 2023] GET /verify => generated 1383 bytes in 35 msecs (HTTP/1.1 200) 8 headers in 352 bytes (1 switches on core 0)
+url: /verify
+[pid: 4862|app: 0|req: 34/34] 1.13.138.100 () {40 vars in 603 bytes} [Tue Apr 25 16:42:56 2023] GET /verify => generated 1765 bytes in 35 msecs (HTTP/1.1 200) 8 headers in 352 bytes (1 switches on core 1)
+url: /myadmin/user/add
+[pid: 4862|app: 0|req: 35/35] 180.101.245.248 () {40 vars in 720 bytes} [Tue Apr 25 16:43:05 2023] GET /myadmin/user/add => generated 0 bytes in 1 msecs (HTTP/1.1 302) 8 headers in 248 bytes (1 switches on core 0)
+url: /myadmin/login
+[pid: 4862|app: 0|req: 36/36] 180.101.245.253 () {42 vars in 768 bytes} [Tue Apr 25 16:43:05 2023] GET /myadmin/login => generated 2930 bytes in 2 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 1)
+url: /myadmin/verify
+[pid: 4862|app: 0|req: 37/37] 1.13.139.204 () {38 vars in 576 bytes} [Tue Apr 25 16:43:05 2023] GET /myadmin/verify => generated 1498 bytes in 39 msecs (HTTP/1.1 200) 8 headers in 352 bytes (1 switches on core 0)
+url: /myadmin/dologin
+[pid: 4862|app: 0|req: 38/38] 183.234.123.117 () {50 vars in 1016 bytes} [Tue Apr 25 16:44:08 2023] POST /myadmin/dologin => generated 2951 bytes in 5 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 1)
+url: /myadmin/verify
+[pid: 4862|app: 0|req: 39/39] 183.234.123.117 () {42 vars in 768 bytes} [Tue Apr 25 16:44:09 2023] GET /myadmin/verify => generated 2127 bytes in 37 msecs (HTTP/1.1 200) 8 headers in 352 bytes (1 switches on core 0)
+url: /myadmin/user/add
+[pid: 4862|app: 0|req: 40/40] 183.234.123.117 () {42 vars in 814 bytes} [Tue Apr 25 16:44:20 2023] GET /myadmin/user/add => generated 0 bytes in 3 msecs (HTTP/1.1 302) 8 headers in 248 bytes (1 switches on core 1)
+url: /myadmin/login
+[pid: 4862|app: 0|req: 41/41] 183.234.123.117 () {42 vars in 808 bytes} [Tue Apr 25 16:44:20 2023] GET /myadmin/login => generated 2930 bytes in 1 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+url: /myadmin/verify
+[pid: 4862|app: 0|req: 42/42] 183.234.123.117 () {42 vars in 766 bytes} [Tue Apr 25 16:44:20 2023] GET /myadmin/verify => generated 1864 bytes in 37 msecs (HTTP/1.1 200) 8 headers in 352 bytes (1 switches on core 1)
+url: /myadmin/index2.html
+[pid: 4862|app: 0|req: 43/43] 183.234.123.117 () {44 vars in 871 bytes} [Tue Apr 25 16:44:24 2023] GET /myadmin/index2.html => generated 0 bytes in 3 msecs (HTTP/1.1 302) 8 headers in 248 bytes (1 switches on core 0)
+url: /myadmin/login
+[pid: 4862|app: 0|req: 44/44] 183.234.123.117 () {44 vars in 859 bytes} [Tue Apr 25 16:44:24 2023] GET /myadmin/login => generated 2930 bytes in 2 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 1)
+url: /myadmin/verify
+[pid: 4862|app: 0|req: 45/45] 183.234.123.117 () {42 vars in 766 bytes} [Tue Apr 25 16:44:24 2023] GET /myadmin/verify => generated 1858 bytes in 38 msecs (HTTP/1.1 200) 8 headers in 352 bytes (1 switches on core 0)
+url: /myadmin/dologin
+[pid: 4862|app: 0|req: 46/46] 183.234.123.117 () {50 vars in 1016 bytes} [Tue Apr 25 16:44:49 2023] POST /myadmin/dologin => generated 2951 bytes in 5 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 1)
+url: /myadmin/verify
+[pid: 4862|app: 0|req: 47/47] 183.234.123.117 () {42 vars in 768 bytes} [Tue Apr 25 16:44:49 2023] GET /myadmin/verify => generated 1756 bytes in 40 msecs (HTTP/1.1 200) 8 headers in 352 bytes (1 switches on core 0)
+url: /myadmin/index2.html
+[pid: 4862|app: 0|req: 48/48] 180.101.244.15 () {42 vars in 776 bytes} [Tue Apr 25 16:47:06 2023] GET /myadmin/index2.html => generated 0 bytes in 1 msecs (HTTP/1.1 302) 8 headers in 248 bytes (1 switches on core 1)
+url: /myadmin/login
+[pid: 4862|app: 0|req: 49/49] 220.196.160.73 () {42 vars in 770 bytes} [Tue Apr 25 16:47:06 2023] GET /myadmin/login => generated 2930 bytes in 2 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+url: /myadmin/verify
+[pid: 4862|app: 0|req: 50/50] 1.13.138.128 () {40 vars in 627 bytes} [Tue Apr 25 16:47:07 2023] GET /myadmin/verify => generated 1937 bytes in 35 msecs (HTTP/1.1 200) 8 headers in 352 bytes (1 switches on core 1)
+url: /myadmin/verify
+[pid: 4862|app: 0|req: 51/51] 220.196.160.146 () {42 vars in 769 bytes} [Tue Apr 25 16:49:42 2023] GET /myadmin/verify => generated 1790 bytes in 41 msecs (HTTP/1.1 200) 8 headers in 352 bytes (1 switches on core 0)
+url: /myadmin/verify
+[pid: 4862|app: 0|req: 52/52] 1.13.138.14 () {40 vars in 628 bytes} [Tue Apr 25 16:49:42 2023] GET /myadmin/verify => generated 1694 bytes in 35 msecs (HTTP/1.1 200) 8 headers in 352 bytes (1 switches on core 1)
+url: /myadmin/dologin
+[pid: 4862|app: 0|req: 53/53] 183.234.123.117 () {50 vars in 1018 bytes} [Tue Apr 25 16:50:18 2023] POST /myadmin/dologin => generated 2951 bytes in 5 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+url: /myadmin/verify
+[pid: 4862|app: 0|req: 54/54] 183.234.123.117 () {42 vars in 768 bytes} [Tue Apr 25 16:50:18 2023] GET /myadmin/verify => generated 2100 bytes in 65 msecs (HTTP/1.1 200) 8 headers in 352 bytes (1 switches on core 1)
+url: /myadmin/dologin
+[pid: 4862|app: 0|req: 55/55] 183.234.123.117 () {50 vars in 1018 bytes} [Tue Apr 25 16:50:35 2023] POST /myadmin/dologin => generated 2951 bytes in 7 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+url: /myadmin/verify
+[pid: 4862|app: 0|req: 56/56] 183.234.123.117 () {42 vars in 768 bytes} [Tue Apr 25 16:50:35 2023] GET /myadmin/verify => generated 1751 bytes in 39 msecs (HTTP/1.1 200) 8 headers in 352 bytes (1 switches on core 0)
+url: /myadmin/dologin
+[pid: 4862|app: 0|req: 57/57] 183.234.123.117 () {50 vars in 1018 bytes} [Tue Apr 25 16:51:02 2023] POST /myadmin/dologin => generated 2951 bytes in 5 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 1)
+url: /myadmin/verify
+[pid: 4862|app: 0|req: 58/58] 183.234.123.117 () {42 vars in 768 bytes} [Tue Apr 25 16:51:02 2023] GET /myadmin/verify => generated 1658 bytes in 36 msecs (HTTP/1.1 200) 8 headers in 352 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.21 (64bit) on [Tue Apr 25 16:53:06 2023] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-44) on 24 April 2023 17:40:47
+os: Linux-3.10.0-1160.71.1.el7.x86_64 #1 SMP Tue Jun 28 15:37:28 UTC 2022
+nodename: VM-8-12-centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /data/www/myobject/myobject
+writing pidfile to uwsgi.pid
+detected binary path: /envs/nb2/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /data/www/myobject
+your processes number limit is 7908
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8000).
+bind(): Address already in use [core/socket.c line 769]
+url: /moblie/register
+Not Found: /moblie/register
+[pid: 4862|app: 0|req: 59/59] 183.234.123.117 () {42 vars in 812 bytes} [Tue Apr 25 16:53:22 2023] GET /moblie/register => generated 3343 bytes in 6 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 1)
+url: /mobile/register
+[pid: 4862|app: 0|req: 60/60] 183.234.123.117 () {42 vars in 812 bytes} [Tue Apr 25 16:53:45 2023] GET /mobile/register => generated 7042 bytes in 3 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+url: /apple-touch-icon-144x144-precomposed.png
+Not Found: /apple-touch-icon-144x144-precomposed.png
+[pid: 4862|app: 0|req: 61/61] 183.234.123.117 () {42 vars in 820 bytes} [Tue Apr 25 16:53:45 2023] GET /apple-touch-icon-144x144-precomposed.png => generated 3418 bytes in 6 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 1)
+url: /mobile/doregister
+Internal Server Error: /mobile/doregister
+Traceback (most recent call last):
+  File "/envs/nb2/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/envs/nb2/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/data/www/myobject/./mobile/views.py", line 65, in doRegister
+    request.session['mobileuser'] = member.toDict()
+  File "/data/www/myobject/./myadmin/models.py", line 85, in toDict
+    'status': self.status, 'create_at': self.create_at.strftime('%Y-%m-%d %H:%M:%S'),
+AttributeError: 'str' object has no attribute 'strftime'
+[pid: 4862|app: 0|req: 62/62] 183.234.123.117 () {50 vars in 1022 bytes} [Tue Apr 25 16:54:10 2023] POST /mobile/doregister => generated 60507 bytes in 37 msecs (HTTP/1.1 500) 7 headers in 242 bytes (1 switches on core 0)
+url: /moblie/register
+Not Found: /moblie/register
+[pid: 4862|app: 0|req: 63/63] 180.101.245.248 () {40 vars in 718 bytes} [Tue Apr 25 16:57:17 2023] GET /moblie/register => generated 3343 bytes in 5 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 1)
+*** Starting uWSGI 2.0.21 (64bit) on [Tue Apr 25 16:58:16 2023] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-44) on 24 April 2023 17:40:47
+os: Linux-3.10.0-1160.71.1.el7.x86_64 #1 SMP Tue Jun 28 15:37:28 UTC 2022
+nodename: VM-8-12-centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /data/www/myobject/myobject
+writing pidfile to uwsgi.pid
+detected binary path: /envs/nb2/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /data/www/myobject
+your processes number limit is 7908
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8000).
+bind(): Address already in use [core/socket.c line 769]
+url: /myadmin/login
+[pid: 4862|app: 0|req: 64/64] 183.234.123.117 () {42 vars in 808 bytes} [Tue Apr 25 16:58:31 2023] GET /myadmin/login => generated 2930 bytes in 2 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+url: /myadmin/verify
+[pid: 4862|app: 0|req: 65/65] 183.234.123.117 () {42 vars in 766 bytes} [Tue Apr 25 16:58:31 2023] GET /myadmin/verify => generated 1774 bytes in 40 msecs (HTTP/1.1 200) 8 headers in 352 bytes (1 switches on core 1)
+url: /moblie/register
+Not Found: /moblie/register
+[pid: 4862|app: 0|req: 66/66] 183.234.123.117 () {42 vars in 812 bytes} [Tue Apr 25 16:58:42 2023] GET /moblie/register => generated 3343 bytes in 6 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 1)
+url: /mobile/register
+[pid: 4862|app: 0|req: 67/67] 183.234.123.117 () {42 vars in 812 bytes} [Tue Apr 25 16:58:49 2023] GET /mobile/register => generated 7042 bytes in 2 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+url: /mobile/doregister
+Internal Server Error: /mobile/doregister
+Traceback (most recent call last):
+  File "/envs/nb2/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/envs/nb2/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/data/www/myobject/./mobile/views.py", line 65, in doRegister
+    request.session['mobileuser'] = member.toDict()
+  File "/data/www/myobject/./myadmin/models.py", line 85, in toDict
+    'status': self.status, 'create_at': self.create_at.strftime('%Y-%m-%d %H:%M:%S'),
+AttributeError: 'str' object has no attribute 'strftime'
+[pid: 4862|app: 0|req: 68/68] 183.234.123.117 () {50 vars in 1022 bytes} [Tue Apr 25 16:59:00 2023] POST /mobile/doregister => generated 60507 bytes in 39 msecs (HTTP/1.1 500) 7 headers in 242 bytes (1 switches on core 1)
+url: /mobile/register
+[pid: 4862|app: 0|req: 69/69] 220.196.160.151 () {40 vars in 718 bytes} [Tue Apr 25 17:06:52 2023] GET /mobile/register => generated 7042 bytes in 2 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+url: /mobile/register
+[pid: 4862|app: 0|req: 70/70] 220.196.160.51 () {38 vars in 686 bytes} [Tue Apr 25 17:06:52 2023] GET /mobile/register => generated 7042 bytes in 2 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 1)
+url: /mobile/register
+[pid: 4862|app: 0|req: 71/71] 119.147.3.50 () {32 vars in 367 bytes} [Tue Apr 25 17:06:57 2023] GET /mobile/register => generated 7042 bytes in 2 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+url: /mobile/doregister
+Internal Server Error: /mobile/doregister
+Traceback (most recent call last):
+  File "/envs/nb2/lib/python3.9/site-packages/django/utils/datastructures.py", line 84, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'code'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/envs/nb2/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/envs/nb2/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/data/www/myobject/./mobile/views.py", line 43, in doRegister
+    if verifycode != request.POST['code']:
+  File "/envs/nb2/lib/python3.9/site-packages/django/utils/datastructures.py", line 86, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'code'
+[pid: 4862|app: 0|req: 72/72] 129.211.167.108 () {42 vars in 775 bytes} [Tue Apr 25 17:07:09 2023] GET /mobile/doregister => generated 62548 bytes in 23 msecs (HTTP/1.1 500) 7 headers in 242 bytes (1 switches on core 1)
+url: /apple-touch-icon-144x144-precomposed.png
+Not Found: /apple-touch-icon-144x144-precomposed.png
+[pid: 4862|app: 0|req: 73/73] 1.13.140.102 () {40 vars in 681 bytes} [Tue Apr 25 17:08:40 2023] GET /apple-touch-icon-144x144-precomposed.png => generated 3418 bytes in 5 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.21 (64bit) on [Tue Apr 25 17:08:45 2023] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-44) on 24 April 2023 17:40:47
+os: Linux-3.10.0-1160.71.1.el7.x86_64 #1 SMP Tue Jun 28 15:37:28 UTC 2022
+nodename: VM-8-12-centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /data/www/myobject/myobject
+writing pidfile to uwsgi.pid
+detected binary path: /envs/nb2/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /data/www/myobject
+your processes number limit is 7908
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8000).
+bind(): Address already in use [core/socket.c line 769]
+url: /mobile/doregister
+[pid: 4862|app: 0|req: 74/74] 183.234.123.117 () {50 vars in 1022 bytes} [Tue Apr 25 17:08:49 2023] POST /mobile/doregister => generated 0 bytes in 18 msecs (HTTP/1.1 302) 9 headers in 387 bytes (1 switches on core 1)
+url: /mobile/
+[pid: 4862|app: 0|req: 75/75] 183.234.123.117 () {44 vars in 849 bytes} [Tue Apr 25 17:08:49 2023] GET /mobile/ => generated 0 bytes in 3 msecs (HTTP/1.1 302) 8 headers in 246 bytes (1 switches on core 0)
+url: /mobile/shop
+Internal Server Error: /mobile/shop
+Traceback (most recent call last):
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/defaulttags.py", line 1026, in find_library
+    return parser.libraries[name]
+KeyError: 'staticfiles'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/envs/nb2/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/envs/nb2/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/data/www/myobject/./mobile/views.py", line 76, in shop
+    return render(request,'mobile/shop.html',context)
+  File "/envs/nb2/lib/python3.9/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/defaulttags.py", line 1082, in load
+    lib = find_library(parser, name)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/defaulttags.py", line 1028, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'staticfiles' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+i18n
+l10n
+log
+static
+tz
+[pid: 4862|app: 0|req: 76/76] 183.234.123.117 () {44 vars in 857 bytes} [Tue Apr 25 17:08:49 2023] GET /mobile/shop => generated 156795 bytes in 48 msecs (HTTP/1.1 500) 7 headers in 243 bytes (1 switches on core 1)
+*** Starting uWSGI 2.0.21 (64bit) on [Tue Apr 25 17:10:22 2023] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-44) on 24 April 2023 17:40:47
+os: Linux-3.10.0-1160.71.1.el7.x86_64 #1 SMP Tue Jun 28 15:37:28 UTC 2022
+nodename: VM-8-12-centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /data/www/myobject/myobject
+writing pidfile to uwsgi.pid
+detected binary path: /envs/nb2/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /data/www/myobject
+your processes number limit is 7908
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8000).
+bind(): Address already in use [core/socket.c line 769]
+url: /mobile/shop
+[pid: 4862|app: 0|req: 77/77] 183.234.123.117 () {44 vars in 857 bytes} [Tue Apr 25 17:10:26 2023] GET /mobile/shop => generated 6920 bytes in 6 msecs (HTTP/1.1 200) 7 headers in 222 bytes (1 switches on core 0)
+url: /mobile/shop/select
+[pid: 4862|app: 0|req: 78/78] 183.234.123.117 () {44 vars in 878 bytes} [Tue Apr 25 17:10:29 2023] GET /mobile/shop/select?sid=1 => generated 0 bytes in 10 msecs (HTTP/1.1 302) 9 headers in 387 bytes (1 switches on core 1)
+url: /mobile/
+Internal Server Error: /mobile/
+Traceback (most recent call last):
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/defaulttags.py", line 1026, in find_library
+    return parser.libraries[name]
+KeyError: 'staticfiles'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/envs/nb2/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/envs/nb2/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/data/www/myobject/./mobile/views.py", line 29, in index
+    return render(request,"mobile/index.html",context)
+  File "/envs/nb2/lib/python3.9/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/defaulttags.py", line 1082, in load
+    lib = find_library(parser, name)
+  File "/envs/nb2/lib/python3.9/site-packages/django/template/defaulttags.py", line 1028, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'staticfiles' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+i18n
+l10n
+log
+static
+tz
+[pid: 4862|app: 0|req: 79/79] 183.234.123.117 () {44 vars in 845 bytes} [Tue Apr 25 17:10:29 2023] GET /mobile/ => generated 194624 bytes in 75 msecs (HTTP/1.1 500) 7 headers in 243 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.21 (64bit) on [Tue Apr 25 17:13:27 2023] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-44) on 24 April 2023 17:40:47
+os: Linux-3.10.0-1160.71.1.el7.x86_64 #1 SMP Tue Jun 28 15:37:28 UTC 2022
+nodename: VM-8-12-centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /data/www/myobject/myobject
+writing pidfile to uwsgi.pid
+detected binary path: /envs/nb2/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /data/www/myobject
+your processes number limit is 7908
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8000).
+bind(): Address already in use [core/socket.c line 769]
+url: /mobile/
+[pid: 4862|app: 0|req: 80/80] 183.234.123.117 () {44 vars in 845 bytes} [Tue Apr 25 17:13:30 2023] GET /mobile/ => generated 17159 bytes in 18 msecs (HTTP/1.1 200) 7 headers in 223 bytes (1 switches on core 1)
+url: /mobile/cart/add
+[pid: 4862|app: 0|req: 81/81] 183.234.123.117 () {44 vars in 822 bytes} [Tue Apr 25 17:13:30 2023] GET /mobile/cart/add => generated 15 bytes in 3 msecs (HTTP/1.1 200) 7 headers in 212 bytes (1 switches on core 0)
+url: /myadmin/login
+[pid: 4862|app: 0|req: 82/82] 183.234.123.117 () {42 vars in 808 bytes} [Tue Apr 25 17:13:54 2023] GET /myadmin/login => generated 2930 bytes in 2 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 1)
+url: /myadmin/verify
+[pid: 4862|app: 0|req: 83/83] 183.234.123.117 () {42 vars in 766 bytes} [Tue Apr 25 17:13:54 2023] GET /myadmin/verify => generated 2007 bytes in 36 msecs (HTTP/1.1 200) 8 headers in 352 bytes (1 switches on core 0)
+url: /myadmin/add
+[pid: 4862|app: 0|req: 84/84] 183.234.123.117 () {42 vars in 804 bytes} [Tue Apr 25 17:14:04 2023] GET /myadmin/add => generated 0 bytes in 3 msecs (HTTP/1.1 302) 8 headers in 248 bytes (1 switches on core 1)
+url: /myadmin/login
+[pid: 4862|app: 0|req: 85/85] 183.234.123.117 () {42 vars in 808 bytes} [Tue Apr 25 17:14:04 2023] GET /myadmin/login => generated 2930 bytes in 2 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+url: /myadmin/verify
+[pid: 4862|app: 0|req: 86/86] 183.234.123.117 () {42 vars in 766 bytes} [Tue Apr 25 17:14:04 2023] GET /myadmin/verify => generated 1573 bytes in 40 msecs (HTTP/1.1 200) 8 headers in 352 bytes (1 switches on core 1)
+url: /
+[pid: 4862|app: 0|req: 87/87] 183.234.123.117 () {42 vars in 782 bytes} [Tue Apr 25 17:14:08 2023] GET / => generated 0 bytes in 1 msecs (HTTP/1.1 302) 7 headers in 225 bytes (1 switches on core 0)
+url: /web/
+[pid: 4862|app: 0|req: 88/88] 183.234.123.117 () {42 vars in 790 bytes} [Tue Apr 25 17:14:08 2023] GET /web/ => generated 0 bytes in 3 msecs (HTTP/1.1 302) 8 headers in 240 bytes (1 switches on core 1)
+url: /login
+[pid: 4862|app: 0|req: 89/89] 183.234.123.117 () {42 vars in 792 bytes} [Tue Apr 25 17:14:08 2023] GET /login => generated 2598 bytes in 4 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+url: /verify
+[pid: 4862|app: 0|req: 90/90] 183.234.123.117 () {42 vars in 742 bytes} [Tue Apr 25 17:14:09 2023] GET /verify => generated 1705 bytes in 42 msecs (HTTP/1.1 200) 8 headers in 352 bytes (1 switches on core 1)
+url: /mobile/
+[pid: 4862|app: 0|req: 91/91] 59.83.208.104 () {42 vars in 749 bytes} [Tue Apr 25 17:17:42 2023] GET /mobile/ => generated 0 bytes in 1 msecs (HTTP/1.1 302) 8 headers in 250 bytes (1 switches on core 0)
+url: /mobile/register
+[pid: 4862|app: 0|req: 92/92] 180.101.244.15 () {42 vars in 762 bytes} [Tue Apr 25 17:17:42 2023] GET /mobile/register => generated 7042 bytes in 2 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+url: /mobile/
+[pid: 4862|app: 0|req: 93/93] 220.196.160.53 () {40 vars in 719 bytes} [Tue Apr 25 17:17:42 2023] GET /mobile/ => generated 0 bytes in 0 msecs (HTTP/1.1 302) 8 headers in 250 bytes (1 switches on core 0)
+url: /mobile/register
+[pid: 4862|app: 0|req: 94/94] 220.196.160.53 () {40 vars in 735 bytes} [Tue Apr 25 17:17:43 2023] GET /mobile/register => generated 7042 bytes in 2 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 1)
+url: /mobile/
+[pid: 4862|app: 0|req: 95/95] 106.55.201.235 () {32 vars in 353 bytes} [Tue Apr 25 17:17:49 2023] GET /mobile/ => generated 0 bytes in 1 msecs (HTTP/1.1 302) 8 headers in 250 bytes (1 switches on core 0)
+url: /mobile/register
+[pid: 4862|app: 0|req: 96/96] 106.55.201.235 () {32 vars in 369 bytes} [Tue Apr 25 17:17:49 2023] GET /mobile/register => generated 7042 bytes in 1 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 1)
+url: /mobile/shop
+[pid: 4862|app: 0|req: 97/97] 220.196.160.117 () {42 vars in 763 bytes} [Tue Apr 25 17:18:47 2023] GET /mobile/shop => generated 0 bytes in 0 msecs (HTTP/1.1 302) 8 headers in 250 bytes (1 switches on core 0)
+url: /mobile/register
+[pid: 4862|app: 0|req: 98/98] 220.196.160.124 () {42 vars in 767 bytes} [Tue Apr 25 17:18:47 2023] GET /mobile/register => generated 7042 bytes in 2 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 1)
+url: /mobile/shop
+[pid: 4862|app: 0|req: 99/99] 180.101.244.13 () {40 vars in 731 bytes} [Tue Apr 25 17:18:47 2023] GET /mobile/shop => generated 0 bytes in 0 msecs (HTTP/1.1 302) 8 headers in 250 bytes (1 switches on core 0)
+url: /mobile/register
+[pid: 4862|app: 0|req: 100/100] 180.101.244.13 () {40 vars in 739 bytes} [Tue Apr 25 17:18:47 2023] GET /mobile/register => generated 7042 bytes in 2 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 1)
+url: /dologin
+[pid: 4862|app: 0|req: 101/101] 183.234.123.117 () {50 vars in 992 bytes} [Tue Apr 25 17:19:02 2023] POST /dologin => generated 0 bytes in 4 msecs (HTTP/1.1 302) 8 headers in 250 bytes (1 switches on core 0)
+url: /login
+[pid: 4862|app: 0|req: 102/102] 183.234.123.117 () {44 vars in 854 bytes} [Tue Apr 25 17:19:02 2023] GET /login?errinfo=5 => generated 2681 bytes in 3 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 1)
+url: /verify
+[pid: 4862|app: 0|req: 103/103] 183.234.123.117 () {42 vars in 752 bytes} [Tue Apr 25 17:19:02 2023] GET /verify => generated 2042 bytes in 39 msecs (HTTP/1.1 200) 8 headers in 352 bytes (1 switches on core 0)
+url: /mobile/shop
+[pid: 4862|app: 0|req: 104/104] 106.52.213.153 () {32 vars in 361 bytes} [Tue Apr 25 17:19:32 2023] GET /mobile/shop => generated 0 bytes in 1 msecs (HTTP/1.1 302) 8 headers in 250 bytes (1 switches on core 1)
+url: /mobile/register
+[pid: 4862|app: 0|req: 105/105] 106.52.213.153 () {32 vars in 369 bytes} [Tue Apr 25 17:19:32 2023] GET /mobile/register => generated 7042 bytes in 1 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+url: /myadmin/add
+[pid: 4862|app: 0|req: 106/106] 220.196.160.61 () {40 vars in 709 bytes} [Tue Apr 25 17:20:04 2023] GET /myadmin/add => generated 0 bytes in 1 msecs (HTTP/1.1 302) 8 headers in 248 bytes (1 switches on core 1)
+url: /myadmin/login
+[pid: 4862|app: 0|req: 107/107] 220.196.160.65 () {42 vars in 762 bytes} [Tue Apr 25 17:20:05 2023] GET /myadmin/login => generated 2930 bytes in 2 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+url: /myadmin/verify
+[pid: 4862|app: 0|req: 108/108] 1.13.138.138 () {38 vars in 576 bytes} [Tue Apr 25 17:20:05 2023] GET /myadmin/verify => generated 1899 bytes in 38 msecs (HTTP/1.1 200) 8 headers in 352 bytes (1 switches on core 0)
+url: /myadmin/add
+[pid: 4862|app: 0|req: 109/109] 183.234.123.117 () {42 vars in 804 bytes} [Tue Apr 25 17:22:28 2023] GET /myadmin/add => generated 0 bytes in 3 msecs (HTTP/1.1 302) 8 headers in 248 bytes (1 switches on core 1)
+url: /myadmin/login
+[pid: 4862|app: 0|req: 110/110] 183.234.123.117 () {42 vars in 808 bytes} [Tue Apr 25 17:22:28 2023] GET /myadmin/login => generated 2930 bytes in 2 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+url: /myadmin/verify
+[pid: 4862|app: 0|req: 111/111] 183.234.123.117 () {42 vars in 766 bytes} [Tue Apr 25 17:22:28 2023] GET /myadmin/verify => generated 1916 bytes in 54 msecs (HTTP/1.1 200) 8 headers in 352 bytes (1 switches on core 1)
+url: /myadmin/user/add
+[pid: 4862|app: 0|req: 112/112] 183.234.123.117 () {42 vars in 814 bytes} [Tue Apr 25 17:22:36 2023] GET /myadmin/user/add => generated 0 bytes in 3 msecs (HTTP/1.1 302) 8 headers in 248 bytes (1 switches on core 0)
+url: /myadmin/login
+[pid: 4862|app: 0|req: 113/113] 183.234.123.117 () {42 vars in 808 bytes} [Tue Apr 25 17:22:36 2023] GET /myadmin/login => generated 2930 bytes in 2 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 1)
+url: /myadmin/verify
+[pid: 4862|app: 0|req: 114/114] 183.234.123.117 () {42 vars in 766 bytes} [Tue Apr 25 17:22:36 2023] GET /myadmin/verify => generated 1980 bytes in 41 msecs (HTTP/1.1 200) 8 headers in 352 bytes (1 switches on core 0)
+url: /myadmin/dologin
+[pid: 4862|app: 0|req: 115/115] 183.234.123.117 () {50 vars in 1016 bytes} [Tue Apr 25 17:23:00 2023] POST /myadmin/dologin => generated 2948 bytes in 5 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 1)
+url: /myadmin/verify
+[pid: 4862|app: 0|req: 116/116] 183.234.123.117 () {42 vars in 768 bytes} [Tue Apr 25 17:23:00 2023] GET /myadmin/verify => generated 1790 bytes in 42 msecs (HTTP/1.1 200) 8 headers in 352 bytes (1 switches on core 0)
+url: /favicon.ico
+Not Found: /favicon.ico
+[pid: 4862|app: 0|req: 117/117] 183.234.123.117 () {42 vars in 762 bytes} [Tue Apr 25 17:23:00 2023] GET /favicon.ico => generated 3331 bytes in 5 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 1)
+url: /mobile/shop/select
+[pid: 4862|app: 0|req: 118/118] 220.196.160.124 () {42 vars in 784 bytes} [Tue Apr 25 17:23:16 2023] GET /mobile/shop/select?sid=1 => generated 0 bytes in 0 msecs (HTTP/1.1 302) 8 headers in 250 bytes (1 switches on core 0)
+url: /mobile/register
+[pid: 4862|app: 0|req: 119/119] 180.101.245.250 () {42 vars in 780 bytes} [Tue Apr 25 17:23:16 2023] GET /mobile/register => generated 7042 bytes in 2 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 1)
+url: /mobile/shop/select
+[pid: 4862|app: 0|req: 120/120] 220.196.160.125 () {40 vars in 753 bytes} [Tue Apr 25 17:23:17 2023] GET /mobile/shop/select?sid=1 => generated 0 bytes in 0 msecs (HTTP/1.1 302) 8 headers in 250 bytes (1 switches on core 0)
+url: /mobile/register
+[pid: 4862|app: 0|req: 121/121] 220.196.160.125 () {40 vars in 736 bytes} [Tue Apr 25 17:23:17 2023] GET /mobile/register => generated 7042 bytes in 2 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 1)
+url: /mobile/shop/select
+[pid: 4862|app: 0|req: 122/122] 106.55.202.233 () {32 vars in 386 bytes} [Tue Apr 25 17:23:22 2023] GET /mobile/shop/select?sid=1 => generated 0 bytes in 0 msecs (HTTP/1.1 302) 8 headers in 250 bytes (1 switches on core 0)
+url: /mobile/register
+[pid: 4862|app: 0|req: 123/123] 106.55.202.233 () {32 vars in 369 bytes} [Tue Apr 25 17:23:22 2023] GET /mobile/register => generated 7042 bytes in 1 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 1)
+url: /register
+Not Found: /register
+[pid: 4862|app: 0|req: 124/124] 183.234.123.117 () {42 vars in 798 bytes} [Tue Apr 25 17:23:30 2023] GET /register => generated 3322 bytes in 6 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+url: /myadmin/edit
+[pid: 4862|app: 0|req: 125/125] 183.234.123.117 () {42 vars in 806 bytes} [Tue Apr 25 17:23:58 2023] GET /myadmin/edit => generated 0 bytes in 3 msecs (HTTP/1.1 302) 8 headers in 248 bytes (1 switches on core 1)
+url: /myadmin/login
+[pid: 4862|app: 0|req: 126/126] 183.234.123.117 () {42 vars in 808 bytes} [Tue Apr 25 17:23:58 2023] GET /myadmin/login => generated 2930 bytes in 2 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+url: /myadmin/verify
+[pid: 4862|app: 0|req: 127/127] 183.234.123.117 () {42 vars in 766 bytes} [Tue Apr 25 17:23:59 2023] GET /myadmin/verify => generated 1847 bytes in 36 msecs (HTTP/1.1 200) 8 headers in 352 bytes (1 switches on core 1)
+url: /mobile/cart/add
+[pid: 4862|app: 0|req: 128/128] 180.101.245.247 () {42 vars in 763 bytes} [Tue Apr 25 17:24:12 2023] GET /mobile/cart/add => generated 0 bytes in 1 msecs (HTTP/1.1 302) 8 headers in 250 bytes (1 switches on core 0)
+url: /mobile/register
+[pid: 4862|app: 0|req: 129/129] 59.83.208.106 () {42 vars in 769 bytes} [Tue Apr 25 17:24:12 2023] GET /mobile/register => generated 7042 bytes in 2 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 1)
+url: /mobile/cart/add
+[pid: 4862|app: 0|req: 130/130] 220.196.160.151 () {40 vars in 732 bytes} [Tue Apr 25 17:24:13 2023] GET /mobile/cart/add => generated 0 bytes in 0 msecs (HTTP/1.1 302) 8 headers in 250 bytes (1 switches on core 0)
+url: /mobile/register
+[pid: 4862|app: 0|req: 131/131] 220.196.160.151 () {40 vars in 732 bytes} [Tue Apr 25 17:24:13 2023] GET /mobile/register => generated 7042 bytes in 2 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 1)
+url: /mobile/cart/add
+[pid: 4862|app: 0|req: 132/132] 119.147.3.36 () {32 vars in 367 bytes} [Tue Apr 25 17:24:18 2023] GET /mobile/cart/add => generated 0 bytes in 0 msecs (HTTP/1.1 302) 8 headers in 250 bytes (1 switches on core 0)
+url: /mobile/register
+[pid: 4862|app: 0|req: 133/133] 119.147.3.36 () {32 vars in 367 bytes} [Tue Apr 25 17:24:18 2023] GET /mobile/register => generated 7042 bytes in 1 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 1)
+url: /mobile/
+[pid: 4862|app: 0|req: 134/134] 183.234.123.117 () {42 vars in 796 bytes} [Tue Apr 25 17:31:22 2023] GET /mobile/ => generated 17159 bytes in 12 msecs (HTTP/1.1 200) 7 headers in 223 bytes (1 switches on core 0)
+url: /mobile/cart/add
+[pid: 4862|app: 0|req: 135/135] 183.234.123.117 () {44 vars in 822 bytes} [Tue Apr 25 17:31:22 2023] GET /mobile/cart/add => generated 15 bytes in 3 msecs (HTTP/1.1 200) 7 headers in 212 bytes (1 switches on core 1)
+url: /apple-touch-icon-144x144-precomposed.png
+Not Found: /apple-touch-icon-144x144-precomposed.png
+[pid: 4862|app: 0|req: 136/136] 183.234.123.117 () {42 vars in 812 bytes} [Tue Apr 25 17:31:22 2023] GET /apple-touch-icon-144x144-precomposed.png => generated 3418 bytes in 6 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+url: /myadmin/edit
+[pid: 4862|app: 0|req: 137/137] 180.101.244.16 () {40 vars in 711 bytes} [Tue Apr 25 17:31:26 2023] GET /myadmin/edit => generated 0 bytes in 1 msecs (HTTP/1.1 302) 8 headers in 248 bytes (1 switches on core 1)
+url: /myadmin/login
+[pid: 4862|app: 0|req: 138/138] 180.101.245.247 () {42 vars in 764 bytes} [Tue Apr 25 17:31:26 2023] GET /myadmin/login => generated 2930 bytes in 2 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+url: /myadmin/verify
+[pid: 4862|app: 0|req: 139/139] 1.13.140.107 () {38 vars in 576 bytes} [Tue Apr 25 17:31:26 2023] GET /myadmin/verify => generated 1638 bytes in 36 msecs (HTTP/1.1 200) 8 headers in 352 bytes (1 switches on core 1)
+url: /mobile/
+[pid: 4862|app: 0|req: 140/140] 183.234.123.117 () {42 vars in 796 bytes} [Tue Apr 25 17:31:37 2023] GET /mobile/ => generated 17159 bytes in 11 msecs (HTTP/1.1 200) 7 headers in 223 bytes (1 switches on core 0)
+url: /mobile/
+[pid: 4862|app: 0|req: 141/141] 183.234.123.117 () {42 vars in 796 bytes} [Tue Apr 25 17:31:59 2023] GET /mobile/ => generated 17159 bytes in 12 msecs (HTTP/1.1 200) 7 headers in 223 bytes (1 switches on core 1)
+url: /mobile/cart/add
+[pid: 4862|app: 0|req: 142/142] 183.234.123.117 () {44 vars in 822 bytes} [Tue Apr 25 17:31:59 2023] GET /mobile/cart/add => generated 15 bytes in 3 msecs (HTTP/1.1 200) 7 headers in 212 bytes (1 switches on core 0)
+url: /mobile/member
+[pid: 4862|app: 0|req: 143/143] 183.234.123.117 () {44 vars in 853 bytes} [Tue Apr 25 17:32:02 2023] GET /mobile/member => generated 7060 bytes in 5 msecs (HTTP/1.1 200) 7 headers in 222 bytes (1 switches on core 1)
+url: /mobile/member/logout
+[pid: 4862|app: 0|req: 144/144] 183.234.123.117 () {44 vars in 873 bytes} [Tue Apr 25 17:32:06 2023] GET /mobile/member/logout => generated 7042 bytes in 12 msecs (HTTP/1.1 200) 9 headers in 503 bytes (1 switches on core 0)
+url: /mobile/
+[pid: 4862|app: 0|req: 145/145] 183.234.123.117 () {42 vars in 796 bytes} [Tue Apr 25 17:32:16 2023] GET /mobile/ => generated 0 bytes in 4 msecs (HTTP/1.1 302) 8 headers in 250 bytes (1 switches on core 1)
+url: /mobile/register
+[pid: 4862|app: 0|req: 146/146] 183.234.123.117 () {42 vars in 812 bytes} [Tue Apr 25 17:32:16 2023] GET /mobile/register => generated 7042 bytes in 2 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 1)
+url: /register
+Not Found: /register
+[pid: 4862|app: 0|req: 147/147] 220.196.160.124 () {40 vars in 704 bytes} [Tue Apr 25 17:33:07 2023] GET /register => generated 3322 bytes in 8 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 1)
+url: /mobile
+[pid: 4862|app: 0|req: 148/148] 183.234.123.117 () {40 vars in 878 bytes} [Tue Apr 25 17:33:22 2023] GET /mobile => generated 0 bytes in 0 msecs (HTTP/1.1 302) 8 headers in 250 bytes (1 switches on core 1)
+url: /mobile/register
+[pid: 4862|app: 0|req: 149/149] 183.234.123.117 () {40 vars in 896 bytes} [Tue Apr 25 17:33:22 2023] GET /mobile/register => generated 7042 bytes in 2 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+url: /favicon.ico
+Not Found: /favicon.ico
+[pid: 4862|app: 0|req: 150/150] 183.234.123.117 () {42 vars in 892 bytes} [Tue Apr 25 17:33:23 2023] GET /favicon.ico => generated 3331 bytes in 5 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 1)
+url: /mobile/doregister
+Internal Server Error: /mobile/doregister
+Traceback (most recent call last):
+  File "/envs/nb2/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/envs/nb2/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/data/www/myobject/./mobile/views.py", line 65, in doRegister
+    request.session['mobileuser'] = member.toDict()
+  File "/data/www/myobject/./myadmin/models.py", line 85, in toDict
+    'status': self.status, 'create_at': self.create_at.datetime.strftime('%Y-%m-%d %H:%M:%S'),
+AttributeError: 'str' object has no attribute 'strftime'
+[pid: 4862|app: 0|req: 151/151] 183.234.123.117 () {52 vars in 1194 bytes} [Tue Apr 25 17:33:34 2023] POST /mobile/doregister => generated 60719 bytes in 30 msecs (HTTP/1.1 500) 7 headers in 242 bytes (1 switches on core 0)
+url: /mobile/doregister
+[pid: 4862|app: 0|req: 152/152] 183.234.123.117 () {52 vars in 1194 bytes} [Tue Apr 25 17:33:42 2023] POST /mobile/doregister => generated 0 bytes in 10 msecs (HTTP/1.1 302) 9 headers in 387 bytes (1 switches on core 1)
+url: /mobile/
+[pid: 4862|app: 0|req: 153/153] 183.234.123.117 () {46 vars in 1065 bytes} [Tue Apr 25 17:33:42 2023] GET /mobile/ => generated 0 bytes in 3 msecs (HTTP/1.1 302) 8 headers in 246 bytes (1 switches on core 0)
+url: /mobile/shop
+[pid: 4862|app: 0|req: 154/154] 183.234.123.117 () {46 vars in 1073 bytes} [Tue Apr 25 17:33:42 2023] GET /mobile/shop => generated 6920 bytes in 5 msecs (HTTP/1.1 200) 7 headers in 222 bytes (1 switches on core 1)
+url: /mobile/
+[pid: 4862|app: 0|req: 155/155] 183.234.123.117 () {44 vars in 1030 bytes} [Tue Apr 25 17:33:45 2023] GET /mobile/ => generated 0 bytes in 3 msecs (HTTP/1.1 302) 8 headers in 246 bytes (1 switches on core 0)
+url: /mobile/shop
+[pid: 4862|app: 0|req: 156/156] 183.234.123.117 () {44 vars in 1038 bytes} [Tue Apr 25 17:33:45 2023] GET /mobile/shop => generated 6920 bytes in 5 msecs (HTTP/1.1 200) 7 headers in 222 bytes (1 switches on core 1)
+url: /mobile/doregister
+[pid: 4862|app: 0|req: 157/157] 183.234.123.117 () {52 vars in 1238 bytes} [Tue Apr 25 17:33:48 2023] POST /mobile/doregister => generated 0 bytes in 9 msecs (HTTP/1.1 302) 9 headers in 387 bytes (1 switches on core 0)
+url: /mobile/
+[pid: 4862|app: 0|req: 158/158] 183.234.123.117 () {46 vars in 1065 bytes} [Tue Apr 25 17:33:48 2023] GET /mobile/ => generated 0 bytes in 3 msecs (HTTP/1.1 302) 8 headers in 246 bytes (1 switches on core 1)
+url: /mobile/shop
+[pid: 4862|app: 0|req: 159/159] 183.234.123.117 () {46 vars in 1073 bytes} [Tue Apr 25 17:33:48 2023] GET /mobile/shop => generated 6920 bytes in 5 msecs (HTTP/1.1 200) 7 headers in 222 bytes (1 switches on core 0)
+url: /mobile
+[pid: 4862|app: 0|req: 160/160] 183.234.123.117 () {42 vars in 998 bytes} [Tue Apr 25 17:34:20 2023] GET /mobile => generated 0 bytes in 0 msecs (HTTP/1.1 302) 8 headers in 250 bytes (1 switches on core 1)
+url: /mobile/register
+[pid: 4862|app: 0|req: 161/161] 183.234.123.117 () {42 vars in 1016 bytes} [Tue Apr 25 17:34:20 2023] GET /mobile/register => generated 7042 bytes in 2 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+url: /favicon.ico
+Not Found: /favicon.ico
+[pid: 4862|app: 0|req: 162/162] 183.234.123.117 () {44 vars in 1012 bytes} [Tue Apr 25 17:34:20 2023] GET /favicon.ico => generated 3331 bytes in 6 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 1)
+url: /mobile/doregister
+Internal Server Error: /mobile/doregister
+Traceback (most recent call last):
+  File "/envs/nb2/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/envs/nb2/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/data/www/myobject/./mobile/views.py", line 65, in doRegister
+    request.session['mobileuser'] = member.toDict()
+  File "/data/www/myobject/./myadmin/models.py", line 85, in toDict
+    'status': self.status, 'create_at': self.create_at.datetime.strftime('%Y-%m-%d %H:%M:%S'),
+AttributeError: 'str' object has no attribute 'strftime'
+[pid: 4862|app: 0|req: 163/163] 183.234.123.117 () {54 vars in 1314 bytes} [Tue Apr 25 17:34:28 2023] POST /mobile/doregister => generated 60969 bytes in 43 msecs (HTTP/1.1 500) 7 headers in 242 bytes (1 switches on core 0)
+url: /mobile/register
+[pid: 4862|app: 0|req: 164/164] 183.234.123.117 () {44 vars in 1073 bytes} [Tue Apr 25 17:34:34 2023] GET /mobile/register => generated 7042 bytes in 2 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 1)
+url: /mobile/doregister
+Internal Server Error: /mobile/doregister
+Traceback (most recent call last):
+  File "/envs/nb2/lib/python3.9/site-packages/django/utils/datastructures.py", line 84, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'code'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/envs/nb2/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/envs/nb2/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/data/www/myobject/./mobile/views.py", line 43, in doRegister
+    if verifycode != request.POST['code']:
+  File "/envs/nb2/lib/python3.9/site-packages/django/utils/datastructures.py", line 86, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'code'
+[pid: 4862|app: 0|req: 165/165] 180.163.30.27 () {36 vars in 595 bytes} [Tue Apr 25 17:34:35 2023] GET /mobile/doregister => generated 62052 bytes in 22 msecs (HTTP/1.1 500) 7 headers in 242 bytes (1 switches on core 0)
+url: /mobile
+[pid: 4862|app: 0|req: 166/166] 183.234.123.119 () {54 vars in 1122 bytes} [Tue Apr 25 17:34:39 2023] GET /mobile => generated 0 bytes in 0 msecs (HTTP/1.1 302) 8 headers in 250 bytes (1 switches on core 1)
+url: /mobile/register
+[pid: 4862|app: 0|req: 167/167] 183.234.123.119 () {52 vars in 1104 bytes} [Tue Apr 25 17:34:39 2023] GET /mobile/register => generated 7042 bytes in 2 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+url: /favicon.ico
+Not Found: /favicon.ico
+[pid: 4862|app: 0|req: 168/168] 183.234.123.119 () {48 vars in 1026 bytes} [Tue Apr 25 17:34:40 2023] GET /favicon.ico => generated 3331 bytes in 5 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 1)
+url: /mobile/shop
+[pid: 4862|app: 0|req: 169/169] 180.163.30.76 () {36 vars in 612 bytes} [Tue Apr 25 17:34:43 2023] GET /mobile/shop => generated 0 bytes in 0 msecs (HTTP/1.1 302) 8 headers in 250 bytes (1 switches on core 0)
+url: /mobile/register
+[pid: 4862|app: 0|req: 170/170] 180.163.30.76 () {38 vars in 669 bytes} [Tue Apr 25 17:34:43 2023] GET /mobile/register => generated 7042 bytes in 2 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 1)
+url: /mobile/doregister
+[pid: 4862|app: 0|req: 171/171] 183.234.123.119 () {58 vars in 1326 bytes} [Tue Apr 25 17:34:46 2023] POST /mobile/doregister => generated 7063 bytes in 2 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+url: /mobile/doregister
+[pid: 4862|app: 0|req: 172/172] 183.234.123.119 () {58 vars in 1330 bytes} [Tue Apr 25 17:34:52 2023] POST /mobile/doregister => generated 7063 bytes in 2 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 1)
+url: /
+[pid: 4862|app: 0|req: 173/173] 180.163.29.217 () {36 vars in 624 bytes} [Tue Apr 25 17:34:58 2023] GET / => generated 0 bytes in 1 msecs (HTTP/1.1 302) 7 headers in 225 bytes (1 switches on core 0)
+url: /web/
+[pid: 4862|app: 0|req: 174/174] 180.163.29.217 () {38 vars in 670 bytes} [Tue Apr 25 17:34:58 2023] GET /web/ => generated 0 bytes in 0 msecs (HTTP/1.1 302) 8 headers in 240 bytes (1 switches on core 1)
+url: /login
+[pid: 4862|app: 0|req: 175/175] 180.163.29.217 () {38 vars in 676 bytes} [Tue Apr 25 17:34:58 2023] GET /login => generated 2598 bytes in 4 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+url: /mobile/doregister
+[pid: 4862|app: 0|req: 176/176] 183.234.123.117 () {50 vars in 1022 bytes} [Tue Apr 25 17:34:59 2023] POST /mobile/doregister => generated 0 bytes in 14 msecs (HTTP/1.1 302) 9 headers in 387 bytes (1 switches on core 1)
+url: /mobile/
+[pid: 4862|app: 0|req: 177/177] 183.234.123.117 () {44 vars in 849 bytes} [Tue Apr 25 17:34:59 2023] GET /mobile/ => generated 17159 bytes in 11 msecs (HTTP/1.1 200) 7 headers in 223 bytes (1 switches on core 0)
+url: /mobile/cart/add
+[pid: 4862|app: 0|req: 178/178] 183.234.123.117 () {44 vars in 822 bytes} [Tue Apr 25 17:34:59 2023] GET /mobile/cart/add => generated 15 bytes in 3 msecs (HTTP/1.1 200) 7 headers in 212 bytes (1 switches on core 1)
+url: /mobile/doregister
+[pid: 4862|app: 0|req: 179/179] 183.234.123.119 () {58 vars in 1330 bytes} [Tue Apr 25 17:35:02 2023] POST /mobile/doregister => generated 7063 bytes in 2 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+url: /mobile
+[pid: 4862|app: 0|req: 180/180] 183.234.123.117 () {44 vars in 1055 bytes} [Tue Apr 25 17:35:09 2023] GET /mobile => generated 0 bytes in 1 msecs (HTTP/1.1 302) 8 headers in 250 bytes (1 switches on core 1)
+url: /mobile/register
+[pid: 4862|app: 0|req: 181/181] 183.234.123.117 () {44 vars in 1073 bytes} [Tue Apr 25 17:35:09 2023] GET /mobile/register => generated 7042 bytes in 1 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+url: /favicon.ico
+Not Found: /favicon.ico
+[pid: 4862|app: 0|req: 182/182] 183.234.123.117 () {44 vars in 1012 bytes} [Tue Apr 25 17:35:09 2023] GET /favicon.ico => generated 3331 bytes in 5 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 1)
+url: /mobile/doregister
+[pid: 4862|app: 0|req: 183/183] 183.234.123.119 () {58 vars in 1330 bytes} [Tue Apr 25 17:35:09 2023] POST /mobile/doregister => generated 7063 bytes in 2 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+url: /mobile/doregister
+Internal Server Error: /mobile/doregister
+Traceback (most recent call last):
+  File "/envs/nb2/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/envs/nb2/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/data/www/myobject/./mobile/views.py", line 65, in doRegister
+    request.session['mobileuser'] = member.toDict()
+  File "/data/www/myobject/./myadmin/models.py", line 85, in toDict
+    'status': self.status, 'create_at': self.create_at.datetime.strftime('%Y-%m-%d %H:%M:%S'),
+AttributeError: 'str' object has no attribute 'strftime'
+[pid: 4862|app: 0|req: 184/184] 183.234.123.117 () {54 vars in 1314 bytes} [Tue Apr 25 17:35:14 2023] POST /mobile/doregister => generated 60968 bytes in 31 msecs (HTTP/1.1 500) 7 headers in 242 bytes (1 switches on core 1)
+url: /mobile/doregister
+Internal Server Error: /mobile/doregister
+Traceback (most recent call last):
+  File "/envs/nb2/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/envs/nb2/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/data/www/myobject/./mobile/views.py", line 65, in doRegister
+    request.session['mobileuser'] = member.toDict()
+  File "/data/www/myobject/./myadmin/models.py", line 85, in toDict
+    'status': self.status, 'create_at': self.create_at.datetime.strftime('%Y-%m-%d %H:%M:%S'),
+AttributeError: 'str' object has no attribute 'strftime'
+[pid: 4862|app: 0|req: 185/185] 183.234.123.119 () {58 vars in 1330 bytes} [Tue Apr 25 17:35:17 2023] POST /mobile/doregister => generated 61189 bytes in 30 msecs (HTTP/1.1 500) 7 headers in 242 bytes (1 switches on core 0)
+url: /mobile
+[pid: 4862|app: 0|req: 186/186] 180.163.28.143 () {36 vars in 589 bytes} [Tue Apr 25 17:35:17 2023] GET /mobile => generated 0 bytes in 0 msecs (HTTP/1.1 302) 8 headers in 250 bytes (1 switches on core 1)
+url: /mobile/register
+[pid: 4862|app: 0|req: 187/187] 180.163.28.143 () {38 vars in 651 bytes} [Tue Apr 25 17:35:17 2023] GET /mobile/register => generated 7042 bytes in 2 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+url: /mobile/doregister
+[pid: 4862|app: 0|req: 188/188] 183.234.123.117 () {54 vars in 1314 bytes} [Tue Apr 25 17:35:19 2023] POST /mobile/doregister => generated 0 bytes in 10 msecs (HTTP/1.1 302) 9 headers in 387 bytes (1 switches on core 1)
+url: /mobile/
+[pid: 4862|app: 0|req: 189/189] 183.234.123.117 () {48 vars in 1185 bytes} [Tue Apr 25 17:35:19 2023] GET /mobile/ => generated 0 bytes in 3 msecs (HTTP/1.1 302) 8 headers in 246 bytes (1 switches on core 0)
+url: /mobile/shop
+[pid: 4862|app: 0|req: 190/190] 183.234.123.117 () {48 vars in 1193 bytes} [Tue Apr 25 17:35:20 2023] GET /mobile/shop => generated 6920 bytes in 5 msecs (HTTP/1.1 200) 7 headers in 222 bytes (1 switches on core 1)
+url: /mobile/register
+[pid: 4862|app: 0|req: 191/191] 180.163.29.234 () {36 vars in 607 bytes} [Tue Apr 25 17:35:20 2023] GET /mobile/register => generated 7042 bytes in 2 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+url: /mobile/register
+[pid: 4862|app: 0|req: 192/192] 183.234.123.117 () {44 vars in 1117 bytes} [Tue Apr 25 17:35:20 2023] GET /mobile/register => generated 7042 bytes in 2 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 1)
+url: /mobile
+[pid: 4862|app: 0|req: 193/193] 183.234.123.117 () {44 vars in 1099 bytes} [Tue Apr 25 17:35:26 2023] GET /mobile => generated 0 bytes in 8 msecs (HTTP/1.1 301) 6 headers in 212 bytes (1 switches on core 0)
+url: /mobile/
+[pid: 4862|app: 0|req: 194/194] 183.234.123.117 () {44 vars in 1101 bytes} [Tue Apr 25 17:35:26 2023] GET /mobile/ => generated 0 bytes in 3 msecs (HTTP/1.1 302) 8 headers in 246 bytes (1 switches on core 1)
+url: /mobile/shop
+[pid: 4862|app: 0|req: 195/195] 183.234.123.117 () {44 vars in 1109 bytes} [Tue Apr 25 17:35:26 2023] GET /mobile/shop => generated 6920 bytes in 5 msecs (HTTP/1.1 200) 7 headers in 222 bytes (1 switches on core 0)
+url: /favicon.ico
+Not Found: /favicon.ico
+[pid: 4862|app: 0|req: 196/196] 183.234.123.117 () {44 vars in 1052 bytes} [Tue Apr 25 17:35:26 2023] GET /favicon.ico => generated 3331 bytes in 5 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 1)
+url: /mobile/
+[pid: 4862|app: 0|req: 197/197] 183.234.123.117 () {46 vars in 1150 bytes} [Tue Apr 25 17:35:28 2023] GET /mobile/ => generated 0 bytes in 3 msecs (HTTP/1.1 302) 8 headers in 246 bytes (1 switches on core 0)
+url: /mobile/shop
+[pid: 4862|app: 0|req: 198/198] 183.234.123.117 () {46 vars in 1158 bytes} [Tue Apr 25 17:35:28 2023] GET /mobile/shop => generated 6920 bytes in 5 msecs (HTTP/1.1 200) 7 headers in 222 bytes (1 switches on core 1)
+url: /mobile/doregister
+Internal Server Error: /mobile/doregister
+Traceback (most recent call last):
+  File "/envs/nb2/lib/python3.9/site-packages/django/utils/datastructures.py", line 84, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'code'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/envs/nb2/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/envs/nb2/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/data/www/myobject/./mobile/views.py", line 43, in doRegister
+    if verifycode != request.POST['code']:
+  File "/envs/nb2/lib/python3.9/site-packages/django/utils/datastructures.py", line 86, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'code'
+[pid: 4862|app: 0|req: 199/199] 180.163.28.114 () {36 vars in 684 bytes} [Tue Apr 25 17:35:28 2023] GET /mobile/doregister => generated 62167 bytes in 22 msecs (HTTP/1.1 500) 7 headers in 242 bytes (1 switches on core 0)
+url: /mobile/
+[pid: 4862|app: 0|req: 200/200] 183.234.123.117 () {46 vars in 1150 bytes} [Tue Apr 25 17:35:29 2023] GET /mobile/ => generated 0 bytes in 3 msecs (HTTP/1.1 302) 8 headers in 246 bytes (1 switches on core 1)
+url: /mobile/shop
+[pid: 4862|app: 0|req: 201/201] 183.234.123.117 () {46 vars in 1158 bytes} [Tue Apr 25 17:35:29 2023] GET /mobile/shop => generated 6920 bytes in 5 msecs (HTTP/1.1 200) 7 headers in 222 bytes (1 switches on core 0)
+url: /mobile/
+[pid: 4862|app: 0|req: 202/202] 183.234.123.117 () {46 vars in 1150 bytes} [Tue Apr 25 17:35:30 2023] GET /mobile/ => generated 0 bytes in 3 msecs (HTTP/1.1 302) 8 headers in 246 bytes (1 switches on core 1)
+url: /mobile/shop
+[pid: 4862|app: 0|req: 203/203] 183.234.123.117 () {46 vars in 1158 bytes} [Tue Apr 25 17:35:30 2023] GET /mobile/shop => generated 6920 bytes in 5 msecs (HTTP/1.1 200) 7 headers in 222 bytes (1 switches on core 0)
+url: /mobile/shop/select
+[pid: 4862|app: 0|req: 204/204] 183.234.123.117 () {46 vars in 1183 bytes} [Tue Apr 25 17:35:30 2023] GET /mobile/shop/select?sid=1 => generated 0 bytes in 10 msecs (HTTP/1.1 302) 9 headers in 387 bytes (1 switches on core 1)
+url: /mobile/
+[pid: 4862|app: 0|req: 205/205] 183.234.123.117 () {46 vars in 1150 bytes} [Tue Apr 25 17:35:30 2023] GET /mobile/ => generated 17159 bytes in 11 msecs (HTTP/1.1 200) 7 headers in 223 bytes (1 switches on core 0)
+url: /mobile/cart/add
+[pid: 4862|app: 0|req: 206/206] 183.234.123.117 () {44 vars in 1016 bytes} [Tue Apr 25 17:35:30 2023] GET /mobile/cart/add => generated 15 bytes in 3 msecs (HTTP/1.1 200) 7 headers in 212 bytes (1 switches on core 1)
+url: /verify
+[pid: 4862|app: 0|req: 207/207] 1.13.139.2 () {38 vars in 558 bytes} [Tue Apr 25 17:35:50 2023] GET /verify => generated 1963 bytes in 39 msecs (HTTP/1.1 200) 8 headers in 352 bytes (1 switches on core 0)
+url: /mobile/doregister
+Internal Server Error: /mobile/doregister
+Traceback (most recent call last):
+  File "/envs/nb2/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/envs/nb2/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/data/www/myobject/./mobile/views.py", line 65, in doRegister
+    request.session['mobileuser'] = member.toDict()
+  File "/data/www/myobject/./myadmin/models.py", line 85, in toDict
+    'status': self.status, 'create_at': self.create_at.datetime.strftime('%Y-%m-%d %H:%M:%S'),
+AttributeError: 'str' object has no attribute 'strftime'
+[pid: 4862|app: 0|req: 208/208] 183.234.123.119 () {58 vars in 1330 bytes} [Tue Apr 25 17:36:07 2023] POST /mobile/doregister => generated 61189 bytes in 29 msecs (HTTP/1.1 500) 7 headers in 242 bytes (1 switches on core 1)
+url: /mobile/shop
+[pid: 4862|app: 0|req: 209/209] 180.163.28.109 () {36 vars in 599 bytes} [Tue Apr 25 17:36:20 2023] GET /mobile/shop => generated 0 bytes in 1 msecs (HTTP/1.1 302) 8 headers in 250 bytes (1 switches on core 0)
+url: /mobile/register
+[pid: 4862|app: 0|req: 210/210] 180.163.28.109 () {38 vars in 656 bytes} [Tue Apr 25 17:36:20 2023] GET /mobile/register => generated 7042 bytes in 2 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 1)
+url: /mobile/shop/select
+[pid: 4862|app: 0|req: 211/211] 180.163.29.79 () {36 vars in 672 bytes} [Tue Apr 25 17:36:30 2023] GET /mobile/shop/select?sid=1 => generated 0 bytes in 1 msecs (HTTP/1.1 302) 8 headers in 250 bytes (1 switches on core 0)
+url: /mobile/register
+[pid: 4862|app: 0|req: 212/212] 180.163.29.79 () {38 vars in 717 bytes} [Tue Apr 25 17:36:30 2023] GET /mobile/register => generated 7042 bytes in 2 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 1)
+url: /mobile/
+[pid: 4862|app: 0|req: 213/213] 183.234.123.117 () {44 vars in 1101 bytes} [Tue Apr 25 17:36:39 2023] GET /mobile/ => generated 17159 bytes in 11 msecs (HTTP/1.1 200) 7 headers in 223 bytes (1 switches on core 0)
+url: /mobile/cart/add
+[pid: 4862|app: 0|req: 214/214] 183.234.123.117 () {44 vars in 1016 bytes} [Tue Apr 25 17:36:40 2023] GET /mobile/cart/add => generated 15 bytes in 3 msecs (HTTP/1.1 200) 7 headers in 212 bytes (1 switches on core 1)
+url: /favicon.ico
+Not Found: /favicon.ico
+[pid: 4862|app: 0|req: 215/215] 183.234.123.117 () {44 vars in 1048 bytes} [Tue Apr 25 17:36:40 2023] GET /favicon.ico => generated 3331 bytes in 6 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+url: /mobile/member
+[pid: 4862|app: 0|req: 216/216] 183.234.123.117 () {46 vars in 1158 bytes} [Tue Apr 25 17:36:41 2023] GET /mobile/member => generated 7053 bytes in 4 msecs (HTTP/1.1 200) 7 headers in 222 bytes (1 switches on core 1)
+url: /mobile/member/logout
+[pid: 4862|app: 0|req: 217/217] 183.234.123.117 () {46 vars in 1178 bytes} [Tue Apr 25 17:36:42 2023] GET /mobile/member/logout => generated 7042 bytes in 9 msecs (HTTP/1.1 200) 9 headers in 503 bytes (1 switches on core 0)
+url: /mobile/doregister
+[pid: 4862|app: 0|req: 218/218] 183.234.123.117 () {54 vars in 1363 bytes} [Tue Apr 25 17:36:48 2023] POST /mobile/doregister => generated 0 bytes in 13 msecs (HTTP/1.1 302) 9 headers in 387 bytes (1 switches on core 1)
+url: /mobile/
+[pid: 4862|app: 0|req: 219/219] 183.234.123.117 () {48 vars in 1190 bytes} [Tue Apr 25 17:36:48 2023] GET /mobile/ => generated 17159 bytes in 11 msecs (HTTP/1.1 200) 7 headers in 223 bytes (1 switches on core 0)
+url: /mobile/cart/add
+[pid: 4862|app: 0|req: 220/220] 183.234.123.117 () {44 vars in 1016 bytes} [Tue Apr 25 17:36:48 2023] GET /mobile/cart/add => generated 15 bytes in 3 msecs (HTTP/1.1 200) 7 headers in 212 bytes (1 switches on core 1)
+url: /mobile
+[pid: 4862|app: 0|req: 221/221] 183.234.123.119 () {54 vars in 1122 bytes} [Tue Apr 25 17:37:12 2023] GET /mobile => generated 0 bytes in 1 msecs (HTTP/1.1 302) 8 headers in 250 bytes (1 switches on core 0)
+url: /mobile/register
+[pid: 4862|app: 0|req: 222/222] 183.234.123.119 () {52 vars in 1104 bytes} [Tue Apr 25 17:37:12 2023] GET /mobile/register => generated 7042 bytes in 2 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 1)
+url: /favicon.ico
+Not Found: /favicon.ico
+[pid: 4862|app: 0|req: 223/223] 183.234.123.119 () {48 vars in 1026 bytes} [Tue Apr 25 17:37:12 2023] GET /favicon.ico => generated 3331 bytes in 9 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+url: /mobile/doregister
+Internal Server Error: /mobile/doregister
+Traceback (most recent call last):
+  File "/envs/nb2/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/envs/nb2/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/data/www/myobject/./mobile/views.py", line 65, in doRegister
+    request.session['mobileuser'] = member.toDict()
+  File "/data/www/myobject/./myadmin/models.py", line 85, in toDict
+    'status': self.status, 'create_at': self.create_at.datetime.strftime('%Y-%m-%d %H:%M:%S'),
+AttributeError: 'str' object has no attribute 'strftime'
+[pid: 4862|app: 0|req: 224/224] 183.234.123.119 () {58 vars in 1328 bytes} [Tue Apr 25 17:37:19 2023] POST /mobile/doregister => generated 61187 bytes in 50 msecs (HTTP/1.1 500) 7 headers in 242 bytes (1 switches on core 0)
+url: /mobile
+[pid: 4862|app: 0|req: 225/225] 180.163.29.79 () {36 vars in 637 bytes} [Tue Apr 25 17:37:38 2023] GET /mobile => generated 0 bytes in 0 msecs (HTTP/1.1 302) 8 headers in 250 bytes (1 switches on core 1)
+url: /mobile/register
+[pid: 4862|app: 0|req: 226/226] 180.163.29.79 () {38 vars in 699 bytes} [Tue Apr 25 17:37:38 2023] GET /mobile/register => generated 7042 bytes in 2 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+url: /mobile/member
+[pid: 4862|app: 0|req: 227/227] 180.163.29.206 () {36 vars in 650 bytes} [Tue Apr 25 17:37:41 2023] GET /mobile/member => generated 0 bytes in 0 msecs (HTTP/1.1 302) 8 headers in 250 bytes (1 switches on core 1)
+url: /mobile/register
+[pid: 4862|app: 0|req: 228/228] 180.163.29.206 () {38 vars in 705 bytes} [Tue Apr 25 17:37:41 2023] GET /mobile/register => generated 7042 bytes in 1 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+url: /mobile/member/logout
+[pid: 4862|app: 0|req: 229/229] 180.163.29.234 () {36 vars in 690 bytes} [Tue Apr 25 17:37:42 2023] GET /mobile/member/logout => generated 0 bytes in 1 msecs (HTTP/1.1 302) 8 headers in 250 bytes (1 switches on core 1)
+url: /mobile/register
+[pid: 4862|app: 0|req: 230/230] 180.163.29.234 () {38 vars in 738 bytes} [Tue Apr 25 17:37:42 2023] GET /mobile/register => generated 7042 bytes in 2 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+url: /mobile
+[pid: 4862|app: 0|req: 231/231] 183.234.123.117 () {42 vars in 979 bytes} [Tue Apr 25 17:37:52 2023] GET /mobile => generated 0 bytes in 8 msecs (HTTP/1.1 301) 6 headers in 212 bytes (1 switches on core 1)
+url: /mobile/
+[pid: 4862|app: 0|req: 232/232] 183.234.123.117 () {42 vars in 981 bytes} [Tue Apr 25 17:37:52 2023] GET /mobile/ => generated 0 bytes in 3 msecs (HTTP/1.1 302) 8 headers in 246 bytes (1 switches on core 0)
+url: /mobile/shop
+[pid: 4862|app: 0|req: 233/233] 183.234.123.117 () {42 vars in 989 bytes} [Tue Apr 25 17:37:52 2023] GET /mobile/shop => generated 6920 bytes in 5 msecs (HTTP/1.1 200) 7 headers in 222 bytes (1 switches on core 1)
+url: /favicon.ico
+Not Found: /favicon.ico
+[pid: 4862|app: 0|req: 234/234] 183.234.123.117 () {42 vars in 932 bytes} [Tue Apr 25 17:37:52 2023] GET /favicon.ico => generated 3331 bytes in 6 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+url: /mobile/
+[pid: 4862|app: 0|req: 235/235] 183.234.123.117 () {44 vars in 1030 bytes} [Tue Apr 25 17:37:53 2023] GET /mobile/ => generated 0 bytes in 3 msecs (HTTP/1.1 302) 8 headers in 246 bytes (1 switches on core 1)
+url: /mobile/shop
+[pid: 4862|app: 0|req: 236/236] 183.234.123.117 () {44 vars in 1038 bytes} [Tue Apr 25 17:37:53 2023] GET /mobile/shop => generated 6920 bytes in 5 msecs (HTTP/1.1 200) 7 headers in 222 bytes (1 switches on core 0)
+url: /mobile/
+[pid: 4862|app: 0|req: 237/237] 183.234.123.117 () {44 vars in 1030 bytes} [Tue Apr 25 17:37:54 2023] GET /mobile/ => generated 0 bytes in 3 msecs (HTTP/1.1 302) 8 headers in 246 bytes (1 switches on core 1)
+url: /mobile/shop
+[pid: 4862|app: 0|req: 238/238] 183.234.123.117 () {44 vars in 1038 bytes} [Tue Apr 25 17:37:54 2023] GET /mobile/shop => generated 6920 bytes in 5 msecs (HTTP/1.1 200) 7 headers in 222 bytes (1 switches on core 0)
+url: /mobile/
+[pid: 4862|app: 0|req: 239/239] 183.234.123.117 () {44 vars in 1030 bytes} [Tue Apr 25 17:37:55 2023] GET /mobile/ => generated 0 bytes in 3 msecs (HTTP/1.1 302) 8 headers in 246 bytes (1 switches on core 1)
+url: /mobile/shop
+[pid: 4862|app: 0|req: 240/240] 183.234.123.117 () {44 vars in 1038 bytes} [Tue Apr 25 17:37:55 2023] GET /mobile/shop => generated 6920 bytes in 5 msecs (HTTP/1.1 200) 7 headers in 222 bytes (1 switches on core 0)
+url: /mobile/shop/select
+[pid: 4862|app: 0|req: 241/241] 183.234.123.117 () {44 vars in 1063 bytes} [Tue Apr 25 17:37:56 2023] GET /mobile/shop/select?sid=1 => generated 0 bytes in 14 msecs (HTTP/1.1 302) 9 headers in 387 bytes (1 switches on core 1)
+url: /mobile/
+[pid: 4862|app: 0|req: 242/242] 183.234.123.117 () {44 vars in 1030 bytes} [Tue Apr 25 17:37:56 2023] GET /mobile/ => generated 17159 bytes in 12 msecs (HTTP/1.1 200) 7 headers in 223 bytes (1 switches on core 0)
+url: /mobile/cart/add
+[pid: 4862|app: 0|req: 243/243] 183.234.123.117 () {44 vars in 911 bytes} [Tue Apr 25 17:37:57 2023] GET /mobile/cart/add => generated 15 bytes in 3 msecs (HTTP/1.1 200) 7 headers in 212 bytes (1 switches on core 1)
+url: /mobile/member
+[pid: 4862|app: 0|req: 244/244] 183.234.123.117 () {44 vars in 1038 bytes} [Tue Apr 25 17:37:59 2023] GET /mobile/member => generated 7058 bytes in 4 msecs (HTTP/1.1 200) 7 headers in 222 bytes (1 switches on core 0)
+url: /mobile/
+[pid: 4862|app: 0|req: 245/245] 183.234.123.117 () {44 vars in 1032 bytes} [Tue Apr 25 17:38:01 2023] GET /mobile/ => generated 17159 bytes in 11 msecs (HTTP/1.1 200) 7 headers in 223 bytes (1 switches on core 1)
+url: /mobile/cart/add
+[pid: 4862|app: 0|req: 246/246] 183.234.123.117 () {44 vars in 911 bytes} [Tue Apr 25 17:38:01 2023] GET /mobile/cart/add => generated 15 bytes in 3 msecs (HTTP/1.1 200) 7 headers in 212 bytes (1 switches on core 0)
+url: /mobile/member
+[pid: 4862|app: 0|req: 247/247] 180.163.28.109 () {36 vars in 617 bytes} [Tue Apr 25 17:39:00 2023] GET /mobile/member => generated 0 bytes in 1 msecs (HTTP/1.1 302) 8 headers in 250 bytes (1 switches on core 1)
+url: /mobile/register
+[pid: 4862|app: 0|req: 248/248] 180.163.28.109 () {38 vars in 672 bytes} [Tue Apr 25 17:39:00 2023] GET /mobile/register => generated 7042 bytes in 2 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+url: /mobile
+[pid: 4862|app: 0|req: 249/249] 180.101.245.251 () {40 vars in 824 bytes} [Tue Apr 25 17:42:19 2023] GET /mobile => generated 0 bytes in 0 msecs (HTTP/1.1 302) 8 headers in 250 bytes (1 switches on core 1)
+url: /mobile/register
+[pid: 4862|app: 0|req: 250/250] 59.83.208.103 () {42 vars in 884 bytes} [Tue Apr 25 17:42:19 2023] GET /mobile/register => generated 7042 bytes in 2 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+url: /mobile
+[pid: 4862|app: 0|req: 251/251] 220.196.160.154 () {38 vars in 793 bytes} [Tue Apr 25 17:42:20 2023] GET /mobile => generated 0 bytes in 1 msecs (HTTP/1.1 302) 8 headers in 250 bytes (1 switches on core 1)
+url: /mobile/register
+[pid: 4862|app: 0|req: 252/252] 220.196.160.154 () {38 vars in 811 bytes} [Tue Apr 25 17:42:20 2023] GET /mobile/register => generated 7042 bytes in 2 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+url: /mobile
+[pid: 4862|app: 0|req: 253/253] 106.52.117.70 () {32 vars in 350 bytes} [Tue Apr 25 17:42:26 2023] GET /mobile => generated 0 bytes in 0 msecs (HTTP/1.1 302) 8 headers in 250 bytes (1 switches on core 1)
+url: /mobile/register
+[pid: 4862|app: 0|req: 254/254] 106.52.117.70 () {32 vars in 368 bytes} [Tue Apr 25 17:42:26 2023] GET /mobile/register => generated 7042 bytes in 2 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+url: /mobile/member
+[pid: 4862|app: 0|req: 255/255] 180.101.244.13 () {42 vars in 758 bytes} [Tue Apr 25 17:42:53 2023] GET /mobile/member => generated 0 bytes in 0 msecs (HTTP/1.1 302) 8 headers in 250 bytes (1 switches on core 1)
+url: /mobile/register
+[pid: 4862|app: 0|req: 256/256] 180.101.244.16 () {42 vars in 768 bytes} [Tue Apr 25 17:42:53 2023] GET /mobile/register => generated 7042 bytes in 2 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+url: /mobile/member
+[pid: 4862|app: 0|req: 257/257] 180.101.245.253 () {40 vars in 728 bytes} [Tue Apr 25 17:42:53 2023] GET /mobile/member => generated 0 bytes in 0 msecs (HTTP/1.1 302) 8 headers in 250 bytes (1 switches on core 1)
+url: /mobile/register
+[pid: 4862|app: 0|req: 258/258] 180.101.245.253 () {40 vars in 732 bytes} [Tue Apr 25 17:42:53 2023] GET /mobile/register => generated 7042 bytes in 1 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+url: /mobile/
+[pid: 4862|app: 0|req: 259/259] 183.234.123.117 () {44 vars in 1101 bytes} [Tue Apr 25 17:42:59 2023] GET /mobile/ => generated 17159 bytes in 12 msecs (HTTP/1.1 200) 7 headers in 223 bytes (1 switches on core 1)
+url: /mobile/cart/add
+[pid: 4862|app: 0|req: 260/260] 183.234.123.117 () {44 vars in 1016 bytes} [Tue Apr 25 17:42:59 2023] GET /mobile/cart/add => generated 15 bytes in 3 msecs (HTTP/1.1 200) 7 headers in 212 bytes (1 switches on core 0)
+url: /favicon.ico
+Not Found: /favicon.ico
+[pid: 4862|app: 0|req: 261/261] 183.234.123.117 () {44 vars in 1048 bytes} [Tue Apr 25 17:42:59 2023] GET /favicon.ico => generated 3331 bytes in 6 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 1)
+url: /mobile/member
+[pid: 4862|app: 0|req: 262/262] 42.193.223.220 () {32 vars in 365 bytes} [Tue Apr 25 17:43:00 2023] GET /mobile/member => generated 0 bytes in 0 msecs (HTTP/1.1 302) 8 headers in 250 bytes (1 switches on core 0)
+url: /mobile/register
+[pid: 4862|app: 0|req: 263/263] 42.193.223.220 () {32 vars in 369 bytes} [Tue Apr 25 17:43:00 2023] GET /mobile/register => generated 7042 bytes in 1 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 1)
+url: /mobile/shop
+[pid: 4862|app: 0|req: 264/264] 183.234.123.117 () {46 vars in 1154 bytes} [Tue Apr 25 17:43:00 2023] GET /mobile/shop => generated 6920 bytes in 5 msecs (HTTP/1.1 200) 7 headers in 222 bytes (1 switches on core 0)
+url: /mobile/cart/add
+[pid: 4862|app: 0|req: 265/265] 183.234.123.117 () {44 vars in 1027 bytes} [Tue Apr 25 17:43:05 2023] GET /mobile/cart/add?pid=1 => generated 272 bytes in 9 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 1)
+url: /myadmin/verify
+[pid: 4862|app: 0|req: 266/266] 1.13.140.20 () {38 vars in 575 bytes} [Tue Apr 25 17:46:09 2023] GET /myadmin/verify => generated 2002 bytes in 36 msecs (HTTP/1.1 200) 8 headers in 352 bytes (1 switches on core 0)
+url: /mobile/
+[pid: 4862|app: 0|req: 267/267] 183.234.123.117 () {44 vars in 1101 bytes} [Tue Apr 25 17:49:15 2023] GET /mobile/ => generated 17159 bytes in 11 msecs (HTTP/1.1 200) 7 headers in 223 bytes (1 switches on core 1)
+url: /mobile/cart/add
+[pid: 4862|app: 0|req: 268/268] 183.234.123.117 () {44 vars in 1016 bytes} [Tue Apr 25 17:49:15 2023] GET /mobile/cart/add => generated 272 bytes in 3 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 0)
+url: /favicon.ico
+Not Found: /favicon.ico
+[pid: 4862|app: 0|req: 269/269] 183.234.123.117 () {44 vars in 1048 bytes} [Tue Apr 25 17:49:15 2023] GET /favicon.ico => generated 3331 bytes in 5 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 1)
+url: /
+[pid: 4862|app: 0|req: 270/270] 193.32.162.159 () {44 vars in 770 bytes} [Tue Apr 25 17:49:26 2023] GET / => generated 0 bytes in 1 msecs (HTTP/1.1 302) 7 headers in 225 bytes (1 switches on core 0)
+url: /mobile
+[pid: 4862|app: 0|req: 271/271] 223.104.1.115 () {42 vars in 879 bytes} [Tue Apr 25 17:50:55 2023] GET /mobile => generated 0 bytes in 0 msecs (HTTP/1.1 302) 8 headers in 250 bytes (1 switches on core 1)
+url: /mobile/register
+[pid: 4862|app: 0|req: 272/272] 223.104.1.115 () {42 vars in 897 bytes} [Tue Apr 25 17:50:55 2023] GET /mobile/register => generated 7042 bytes in 2 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+url: /mobile/
+[pid: 4862|app: 0|req: 273/273] 183.234.123.117 () {44 vars in 849 bytes} [Tue Apr 25 17:50:56 2023] GET /mobile/ => generated 17159 bytes in 12 msecs (HTTP/1.1 200) 7 headers in 223 bytes (1 switches on core 1)
+url: /mobile/cart/add
+[pid: 4862|app: 0|req: 274/274] 183.234.123.117 () {44 vars in 822 bytes} [Tue Apr 25 17:50:56 2023] GET /mobile/cart/add => generated 15 bytes in 3 msecs (HTTP/1.1 200) 7 headers in 212 bytes (1 switches on core 0)
+url: /favicon.ico
+Not Found: /favicon.ico
+[pid: 4862|app: 0|req: 275/275] 223.104.1.115 () {42 vars in 862 bytes} [Tue Apr 25 17:50:56 2023] GET /favicon.ico => generated 3331 bytes in 6 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 1)
+url: /mobile
+[pid: 4862|app: 0|req: 276/276] 223.104.1.115 () {44 vars in 925 bytes} [Tue Apr 25 17:50:58 2023] GET /mobile => generated 0 bytes in 0 msecs (HTTP/1.1 302) 8 headers in 250 bytes (1 switches on core 0)
+url: /mobile/register
+[pid: 4862|app: 0|req: 277/277] 223.104.1.115 () {44 vars in 943 bytes} [Tue Apr 25 17:50:58 2023] GET /mobile/register => generated 7042 bytes in 1 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 1)
+url: /favicon.ico
+Not Found: /favicon.ico
+[pid: 4862|app: 0|req: 278/278] 223.104.1.115 () {42 vars in 862 bytes} [Tue Apr 25 17:50:59 2023] GET /favicon.ico => generated 3331 bytes in 5 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+url: /apple-touch-icon-57x57-precomposed.png
+Not Found: /apple-touch-icon-57x57-precomposed.png
+[pid: 4862|app: 0|req: 279/279] 223.104.1.115 () {34 vars in 858 bytes} [Tue Apr 25 17:50:59 2023] GET /apple-touch-icon-57x57-precomposed.png?miuiStable=1&client_version_code=170600400&client_version_name=17.6.40423&isAdvertisingEnabled=true => generated 3524 bytes in 6 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 1)
+url: /mobile/
+[pid: 4862|app: 0|req: 280/280] 183.234.123.117 () {44 vars in 1101 bytes} [Tue Apr 25 17:51:03 2023] GET /mobile/ => generated 17159 bytes in 12 msecs (HTTP/1.1 200) 7 headers in 223 bytes (1 switches on core 0)
+url: /mobile/cart/add
+[pid: 4862|app: 0|req: 281/281] 183.234.123.117 () {44 vars in 1016 bytes} [Tue Apr 25 17:51:03 2023] GET /mobile/cart/add => generated 272 bytes in 3 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 1)
+url: /favicon.ico
+Not Found: /favicon.ico
+[pid: 4862|app: 0|req: 282/282] 183.234.123.117 () {44 vars in 1048 bytes} [Tue Apr 25 17:51:03 2023] GET /favicon.ico => generated 3331 bytes in 6 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+url: /mobile/doregister
+Internal Server Error: /mobile/doregister
+Traceback (most recent call last):
+  File "/envs/nb2/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/envs/nb2/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/data/www/myobject/./mobile/views.py", line 65, in doRegister
+    request.session['mobileuser'] = member.toDict()
+  File "/data/www/myobject/./myadmin/models.py", line 85, in toDict
+    'status': self.status, 'create_at': self.create_at.datetime.strftime('%Y-%m-%d %H:%M:%S'),
+AttributeError: 'str' object has no attribute 'strftime'
+[pid: 4862|app: 0|req: 283/283] 223.104.1.115 () {52 vars in 1164 bytes} [Tue Apr 25 17:51:13 2023] POST /mobile/doregister => generated 60691 bytes in 30 msecs (HTTP/1.1 500) 7 headers in 242 bytes (1 switches on core 1)
+url: /apple-touch-icon-57x57-precomposed.png
+Not Found: /apple-touch-icon-57x57-precomposed.png
+[pid: 4862|app: 0|req: 284/284] 223.104.1.115 () {34 vars in 858 bytes} [Tue Apr 25 17:51:22 2023] GET /apple-touch-icon-57x57-precomposed.png?miuiStable=1&client_version_code=170600400&client_version_name=17.6.40423&isAdvertisingEnabled=true => generated 3524 bytes in 6 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+url: /mobile/
+[pid: 4862|app: 0|req: 285/285] 183.234.123.117 () {44 vars in 849 bytes} [Tue Apr 25 18:40:02 2023] GET /mobile/ => generated 17159 bytes in 12 msecs (HTTP/1.1 200) 7 headers in 223 bytes (1 switches on core 1)
+url: /mobile/cart/add
+[pid: 4862|app: 0|req: 286/286] 183.234.123.117 () {44 vars in 822 bytes} [Tue Apr 25 18:40:02 2023] GET /mobile/cart/add => generated 15 bytes in 3 msecs (HTTP/1.1 200) 7 headers in 212 bytes (1 switches on core 0)
+url: /mobile
+[pid: 4862|app: 0|req: 287/287] 183.234.123.118 () {42 vars in 997 bytes} [Tue Apr 25 18:40:37 2023] GET /mobile => generated 0 bytes in 1 msecs (HTTP/1.1 302) 8 headers in 250 bytes (1 switches on core 1)
+url: /mobile/register
+[pid: 4862|app: 0|req: 288/288] 183.234.123.118 () {42 vars in 1015 bytes} [Tue Apr 25 18:40:37 2023] GET /mobile/register => generated 7042 bytes in 2 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+url: /favicon.ico
+Not Found: /favicon.ico
+[pid: 4862|app: 0|req: 289/289] 183.234.123.118 () {44 vars in 1011 bytes} [Tue Apr 25 18:40:37 2023] GET /favicon.ico => generated 3331 bytes in 6 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 1)
+url: /mobile/doregister
+Internal Server Error: /mobile/doregister
+Traceback (most recent call last):
+  File "/envs/nb2/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/envs/nb2/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/data/www/myobject/./mobile/views.py", line 65, in doRegister
+    request.session['mobileuser'] = member.toDict()
+  File "/data/www/myobject/./myadmin/models.py", line 85, in toDict
+    'status': self.status, 'create_at': self.create_at.datetime.strftime('%Y-%m-%d %H:%M:%S'),
+AttributeError: 'str' object has no attribute 'strftime'
+[pid: 4862|app: 0|req: 290/290] 183.234.123.118 () {54 vars in 1313 bytes} [Tue Apr 25 18:40:44 2023] POST /mobile/doregister => generated 60981 bytes in 48 msecs (HTTP/1.1 500) 7 headers in 242 bytes (1 switches on core 0)
+url: /mobile/register
+[pid: 4862|app: 0|req: 291/291] 183.234.123.118 () {44 vars in 1072 bytes} [Tue Apr 25 18:40:56 2023] GET /mobile/register => generated 7042 bytes in 2 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 1)
+url: /mobile/doregister
+[pid: 4862|app: 0|req: 292/292] 183.234.123.118 () {54 vars in 1313 bytes} [Tue Apr 25 18:41:00 2023] POST /mobile/doregister => generated 0 bytes in 9 msecs (HTTP/1.1 302) 9 headers in 387 bytes (1 switches on core 0)
+url: /mobile/
+[pid: 4862|app: 0|req: 293/293] 183.234.123.118 () {48 vars in 1184 bytes} [Tue Apr 25 18:41:00 2023] GET /mobile/ => generated 0 bytes in 3 msecs (HTTP/1.1 302) 8 headers in 246 bytes (1 switches on core 1)
+url: /mobile/shop
+[pid: 4862|app: 0|req: 294/294] 183.234.123.118 () {48 vars in 1192 bytes} [Tue Apr 25 18:41:00 2023] GET /mobile/shop => generated 6920 bytes in 5 msecs (HTTP/1.1 200) 7 headers in 222 bytes (1 switches on core 0)
+url: /mobile/shop/select
+[pid: 4862|app: 0|req: 295/295] 183.234.123.118 () {46 vars in 1182 bytes} [Tue Apr 25 18:41:04 2023] GET /mobile/shop/select?sid=1 => generated 0 bytes in 14 msecs (HTTP/1.1 302) 9 headers in 387 bytes (1 switches on core 1)
+url: /mobile/
+[pid: 4862|app: 0|req: 296/296] 183.234.123.118 () {46 vars in 1149 bytes} [Tue Apr 25 18:41:04 2023] GET /mobile/ => generated 17159 bytes in 12 msecs (HTTP/1.1 200) 7 headers in 223 bytes (1 switches on core 0)
+url: /mobile/cart/add
+[pid: 4862|app: 0|req: 297/297] 183.234.123.118 () {44 vars in 1015 bytes} [Tue Apr 25 18:41:04 2023] GET /mobile/cart/add => generated 15 bytes in 3 msecs (HTTP/1.1 200) 7 headers in 212 bytes (1 switches on core 1)
+url: /mobile/orders/add
+[pid: 4862|app: 0|req: 298/298] 183.234.123.118 () {46 vars in 1165 bytes} [Tue Apr 25 18:41:05 2023] GET /mobile/orders/add => generated 7941 bytes in 10 msecs (HTTP/1.1 200) 8 headers in 367 bytes (1 switches on core 0)
+url: /mobile/shop
+[pid: 4862|app: 0|req: 299/299] 183.234.123.118 () {46 vars in 1153 bytes} [Tue Apr 25 18:41:08 2023] GET /mobile/shop => generated 6920 bytes in 5 msecs (HTTP/1.1 200) 7 headers in 222 bytes (1 switches on core 1)
+url: /mobile/shop/select
+[pid: 4862|app: 0|req: 300/300] 183.234.123.118 () {46 vars in 1182 bytes} [Tue Apr 25 18:41:09 2023] GET /mobile/shop/select?sid=1 => generated 0 bytes in 10 msecs (HTTP/1.1 302) 9 headers in 387 bytes (1 switches on core 0)
+url: /mobile/
+[pid: 4862|app: 0|req: 301/301] 183.234.123.118 () {46 vars in 1149 bytes} [Tue Apr 25 18:41:09 2023] GET /mobile/ => generated 17159 bytes in 12 msecs (HTTP/1.1 200) 7 headers in 223 bytes (1 switches on core 1)
+url: /mobile/cart/add
+[pid: 4862|app: 0|req: 302/302] 183.234.123.118 () {44 vars in 1015 bytes} [Tue Apr 25 18:41:09 2023] GET /mobile/cart/add => generated 15 bytes in 3 msecs (HTTP/1.1 200) 7 headers in 212 bytes (1 switches on core 0)
+url: /mobile/member
+[pid: 4862|app: 0|req: 303/303] 183.234.123.118 () {46 vars in 1157 bytes} [Tue Apr 25 18:41:11 2023] GET /mobile/member => generated 7067 bytes in 4 msecs (HTTP/1.1 200) 7 headers in 222 bytes (1 switches on core 1)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+url: /api/
+Not Found: /api/
+[pid: 4862|app: 0|req: 304/304] 183.234.123.117 () {42 vars in 790 bytes} [Thu Apr 27 15:26:37 2023] GET /api/ => generated 3310 bytes in 6 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+url: /api/
+Not Found: /api/
+[pid: 4862|app: 0|req: 305/305] 183.234.123.117 () {42 vars in 790 bytes} [Thu Apr 27 15:26:38 2023] GET /api/ => generated 3310 bytes in 5 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 1)
+url: /api/
+Not Found: /api/
+[pid: 4862|app: 0|req: 306/306] 183.234.123.117 () {42 vars in 790 bytes} [Thu Apr 27 15:26:39 2023] GET /api/ => generated 3310 bytes in 5 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+url: /api/login
+Not Found: /api/login
+[pid: 4862|app: 0|req: 307/307] 183.234.123.117 () {42 vars in 800 bytes} [Thu Apr 27 15:26:48 2023] GET /api/login => generated 3325 bytes in 5 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 1)
+url: /api/
+Not Found: /api/
+[pid: 4862|app: 0|req: 308/308] 183.234.123.117 () {42 vars in 790 bytes} [Thu Apr 27 15:27:04 2023] GET /api/ => generated 3310 bytes in 5 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+Thu Apr 27 15:28:57 2023 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Apr 27 15:28:57 2023 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
